@@ -8,7 +8,7 @@ import roundupImg from "../../assets/newServiceImg/roundupdesktopp.png";
 import babyFoodImg from "../../assets/newServiceImg/toxicbabydesktopp.png";
 import oxbrytaImg from "../../assets/newServiceImg/oxbrytadesktopp.png";
 import talcumImg from "../../assets/newServiceImg/Talcumdesktopp.png";
-import bardImg from "../../assets/bardservicee.png";
+import bardImg from "../../assets/newServiceImg/bardservicee.png";
 import afffImg from "../../assets/newServiceImg/afffdesktopp.png";
 import pfasImg from "../../assets/newServiceImg/pfasdesktopp.png";
 import meshImg from "../../assets/newServiceImg/transdesktopp.png";
@@ -65,8 +65,8 @@ const ServiceThree = () => {
     <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-12 bg-white w-full font-[Quicksand]">
       <div className="w-full max-w-[1280px] mx-auto">
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#1545B5]">
-            What Do We <span className="text-[#ED8B03]">Help You</span> With?
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#162766]">
+            What Do We <span className="text-[#EDC14A]">Help You</span> With?
           </h2>
         </div>
  
@@ -89,7 +89,7 @@ const ServiceThree = () => {
                 <div className="p-4">
                   <p className="text-sm text-[#6b7280] leading-snug">{item.description}</p>
                   <Link to={item.link}>
-                    <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
+                    <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded-[6px] text-sm transition-colors duration-200 hover:bg-[#ED8B03]">
                       Learn More
                     </button>
                   </Link>
@@ -118,7 +118,7 @@ const ServiceThree = () => {
                     {item.description}
                   </p>
                   <Link to={item.link}>
-                    <button className="mt-2 px-4 py-2 border border-blue-600 text-blue-600 rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
+                    <button className="mt-2 px-4 py-2 border border-blue-600 text-blue-600 rounded-[6px] text-sm transition-colors duration-200 hover:bg-[#ED8B03]">
                       Learn More
                     </button>
                   </Link>
