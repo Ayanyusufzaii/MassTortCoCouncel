@@ -77,9 +77,9 @@
  
 // export default HomeFive;
 import React from "react";
-import leftImg from "../../assets/deskkpeoplee.png";
-import leftImgMob from "../../assets/mobbpeoplee.png";
-import aposthopthe_icon from "../../assets/aposthopthe_icon.png";
+import leftImg from "../../assets/peopleeee.png";
+import leftImgMob from "../../assets/peopleemobileee.png";
+import aposthopthe_icon from "../../assets/commasss.png";
  
 export default function HomeFive() {
   return (

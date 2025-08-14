@@ -1,10 +1,10 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import depoImg from "../../assets/newServiceImg/depodesktoppimgg.png";
-import paraquatImg from "../../assets/newServiceImg/paradeskktoppmain.png";
-import roundupImg from "../../assets/newServiceImg/rounddeskktoppmainn.png";
-import babyFoodImg from "../../assets/newServiceImg/toxicbabydesktopp.png";
+import depoImg from "../../assets/depoooo.png";
+import paraquatImg from "../../assets/paraaaqq.png";
+import roundupImg from "../../assets/roundddd.png";
+import babyFoodImg from "../../assets/toxiccbabbyy.png";
 
 
 const lawsuits = [

@@ -4,7 +4,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import footerVector from '../../assets/Vector.svg';
 import { Link, useLocation } from 'react-router-dom';
 import { BsTwitterX } from "react-icons/bs";
-import logo from "../../assets/footerlogoo.png"; // Adjust the path as necessary
+import logo from "../../assets/Logo DEMO.png"; // Adjust the path as necessary
 
 
 const Footer = () => {
@@ -47,10 +47,10 @@ const Footer = () => {
           <div className="block md:hidden text-center">
             <h2 className="text-3xl font-bold font-[Quicksand] mt-8">Contact Us To Explore </h2>
 <h2 className="text-3xl font-bold font-[Quicksand] mt-2 text-white">
-  Your <span className="text-[#F8D216]">Legal Options</span> Today
+  Your <span className="text-[#ED8B03]">Legal Options</span> Today
 </h2>
           <a href="/ContactUs">
-  <button className="bg-[#F8D216] hover:bg-yellow-600 text-[#1545B5] px-4 py-4 rounded font-bold mt-8">
+  <button className="bg-[#ED8B03] hover:bg-yellow-600 text-[#ffffff] px-4 py-4 rounded font-bold mt-8">
     Book an Appointment
   </button>
 </a>
@@ -63,7 +63,7 @@ const Footer = () => {
   key={label}
   href={href}
   aria-label={label}
-  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#1545B5] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
   <Icon className="w-5 h-5 text-white" />
 </a>
@@ -78,7 +78,7 @@ const Footer = () => {
                   key={link.name}
                   href={link.href}
                   className={`text-base font-medium transition-colors ${
-                    location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white'
+                    location.pathname === link.href ? 'text-[#ED8B03]' : 'text-gray-300 hover:text-white'
                   }`}
                   aria-current={location.pathname === link.href ? 'page' : undefined}
                 >
@@ -87,7 +87,7 @@ const Footer = () => {
               ))}
             </nav>
 
-            <div className="mt-4 border-t-2 border-yellow-300" />
+            <div className="mt-4 border-t-2 border-[#ED8B03]" />
 
             {/* Bottom Branding & Legal */}
             <div className="mt-4">
@@ -133,7 +133,7 @@ const Footer = () => {
               <div>
                  <h2 className="text-2xl font-bold font-[Quicksand] mt-8">Contact Us To Explore </h2>
           <h2 className="text-2xl font-bold font-[Quicksand] mt-2 text-white">
-  Your <span className="text-[#F8D216]">Legal Options</span> Today
+  Your <span className="text-[#ED8B03]">Legal Options</span> Today
 </h2>
 
                 <nav className="flex flex-wrap gap-6 mt-8">
@@ -142,7 +142,7 @@ const Footer = () => {
                       key={link.name}
                       href={link.href}
                       className={`text-base font-medium transition-colors ${
-                        location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white'
+                        location.pathname === link.href ? 'text-[#ED8B03]' : 'text-gray-300 hover:text-white'
                       }`}
                       aria-current={location.pathname === link.href ? 'page' : undefined}
                     >
@@ -155,7 +155,7 @@ const Footer = () => {
               {/* Right */}
               <div className="flex items-center justify-end gap-8">
             <a href="/ContactUs">
-  <button className="bg-[#F8D216] hover:bg-[#F8D216] text-[#1545B5] px-2 py-2 rounded font-bold ">
+  <button className="bg-[#ED8B03] hover:bg-[#ED8B03] text-[#ffffff] px-2 py-2 rounded font-bold ">
     Book an Appointment
   </button>
 </a>
@@ -166,7 +166,7 @@ const Footer = () => {
   key={label}
   href={href}
   aria-label={label}
-  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#1545B5] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
   <Icon className="w-5 h-5 text-white" />
 </a>
@@ -176,7 +176,7 @@ const Footer = () => {
             </div>
 
             {/* Branding & Legal */}
-            <div className="mt-4 pt-8 border-t-2 border-yellow-300">
+            <div className="mt-4 pt-8 border-t-2 border-[#ED8B03]">
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-4">
                 <div className="text-3xl font-bold text-[#fffff] font-[Quicksand]">
                   <div>
