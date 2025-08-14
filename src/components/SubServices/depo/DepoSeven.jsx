@@ -32,7 +32,7 @@ const HomeSeven = () => {
           </h2>
           <button onClick={handleRedirect}
  
-            className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            className="bg-[#ED8B03] hover:bg-[#ED8B03] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             Start My Case Review
@@ -81,7 +81,7 @@ Were You Diagnosed After Using Depo-Provera?               </h1>
  You may be entitled to settlement. Start with a free, confidential legal case review today.               </h2>
               <button onClick={handleRedirect}
  
-                className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="bg-[#ED8B03] hover:bg-[#ED8B03] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Start My Case Review
@@ -117,7 +117,7 @@ Were You Diagnosed After Using Depo-Provera?             </h1>
  You may be entitled to settlement. Start with a free, confidential legal case review today.             </h2>
             <button onClick={handleRedirect}
  
-              className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
+              className="bg-[#ED8B03] hover:bg-[#ED8B03] text-white font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
               Start My Case Review

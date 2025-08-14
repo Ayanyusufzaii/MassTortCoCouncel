@@ -12,13 +12,13 @@
 };
  
  
-const SERVICE_ID = 'service_qs9v96e';
-const ADMIN_TEMPLATE_ID = 'template_fa7qndd';
-const USER_TEMPLATE_ID = 'template_vghzjt8';
+const SERVICE_ID = 'service_azb26ks';
+const ADMIN_TEMPLATE_ID = 'template_4t0j6st';
+const USER_TEMPLATE_ID = 'template_w1e46c5';
  
 // SubService template IDs
-const SUBSERVICE_ADMIN_TEMPLATE_ID = 'template_mo5pzwu';
-const SUBSERVICE_USER_TEMPLATE_ID = 'template_bz16ror';  
+const SUBSERVICE_ADMIN_TEMPLATE_ID = 'template_uyvq08v';
+const SUBSERVICE_USER_TEMPLATE_ID = 'template_5gvw7ie';  
  
 const PUBLIC_KEY = 'DyDZ85E9uwzwSyUoD';
  

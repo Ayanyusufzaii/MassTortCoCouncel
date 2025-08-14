@@ -14,7 +14,7 @@ import AFFFMain from './components/SubServices/AFFF/AFFFMain.jsx';
 import BardPowerPortMain from './components/SubServices/BardPowerPort/BardPowerPortMain.jsx';
 import TalcumMain from './components/SubServices/TalcumPowder/TalcumPowderMain.jsx';
 import TransvaginalMain from './components/SubServices/TransvaginalMesh/TransvaginalMain.jsx';
-import UltraProcessedMain from './components/SubServices/UltraProcessedFood/UltraProcessedMain.jsx';
+// import UltraProcessedMain from './components/SubServices/UltraProcessedFood/UltraProcessedMain.jsx';
 import OxbrytaMain from './components/SubServices/Oxbryta/OxbrytaMain.jsx';
 import PFASMain from './components/SubServices/PFAS/PFASMain.jsx';
 
@@ -76,10 +76,6 @@ const App = () => {
       {
         path: "/Service/Transvaginal-Mesh-Lawsuit",
         element: <TransvaginalMain />,
-      },
-      {
-        path: "/UltraProcessedMain",
-        element: <UltraProcessedMain />,
       },
       {
         path: "/Service/Oxbryta-Lawsuit",
