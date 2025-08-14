@@ -54,8 +54,8 @@ const AboutTwo = () => {
           text-[32px] md:text-[38px] lg:text-[44px] xl:text-[50px] 2xl:text-[54px]
           min-[2560px]:text-[58px] min-[3840px]:text-[62px]
           leading-snug">
-          <span className="text-[#162766]">Our </span>
-          <span className="text-[#EDC14A]">Mission</span>
+          <span className="text-[#1545B5]">Our </span>
+          <span className="text-[#ED8B03]">Mission</span>
         </h2>
         <p className="font-quicksand font-medium text-[#757575] text-left
           text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]
@@ -86,11 +86,11 @@ const AboutTwo = () => {
         {/* Content - Positioned at top */}
         <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[97px]">
           <h1 
-            className="text-[#162766] mb-4 text-left capitalize
+            className="text-[#1545B5] mb-4 text-left capitalize
               text-[32px] leading-normal
               font-[Quicksand] font-bold"
           >
-            Our <span className="text-[#EDC14A]">Mission</span>
+            Our <span className="text-[#ED8B03]">Mission</span>
           </h1>
           
           <h2 

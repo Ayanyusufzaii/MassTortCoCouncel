@@ -8,7 +8,7 @@ const eligibilityCards = [
     text: (
       <>
         You Had A Transvaginal Mesh Implant<br />
-        <span className="text-[#EDC14A]">For POP Or SUI</span>
+        <span className="text-[#ED8B03]">For POP Or SUI</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -17,7 +17,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        You <span className="text-[#EDC14A]">Experienced Complications</span> Such As<br />
+        You <span className="text-[#ED8B03]">Experienced Complications</span> Such As<br />
         Erosion, Infection, Or Severe Pain
       </>
     ),
@@ -27,7 +27,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-        You <span className="text-[#EDC14A]">Underwent Revision Or Removal</span><br />
+        You <span className="text-[#ED8B03]">Underwent Revision Or Removal</span><br />
         Surgery
       </>
     ),
@@ -37,7 +37,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        You Were <span className="text-[#EDC14A]">Not Fully Informed</span> About The<br />
+        You Were <span className="text-[#ED8B03]">Not Fully Informed</span> About The<br />
         Risks At The Time Of Your Procedure
       </>
     ),
@@ -47,7 +47,7 @@ const eligibilityCards = [
     number: "05",
     text: (
       <>
-        You Are Still Within The <span className="text-[#EDC14A]">Statute Of<br />Limitations</span> In Your State
+        You Are Still Within The <span className="text-[#ED8B03]">Statute Of<br />Limitations</span> In Your State
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -60,7 +60,7 @@ const tabeligibilityCards = [
     text: (
       <>
         You Had A Transvaginal Mesh Implant<br />
-        <span className="text-[#EDC14A]">For POP Or SUI</span>
+        <span className="text-[#ED8B03]">For POP Or SUI</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -69,7 +69,7 @@ const tabeligibilityCards = [
     number: "02",
     text: (
       <>
-        You <span className="text-[#EDC14A]">Experienced Complications</span> Such As<br />
+        You <span className="text-[#ED8B03]">Experienced Complications</span> Such As<br />
         Erosion, Infection, Or Severe Pain
       </>
     ),
@@ -79,7 +79,7 @@ const tabeligibilityCards = [
     number: "03",
     text: (
       <>
-        You <span className="text-[#EDC14A]">Underwent Revision Or Removal</span><br />
+        You <span className="text-[#ED8B03]">Underwent Revision Or Removal</span><br />
         Surgery
       </>
     ),
@@ -89,7 +89,7 @@ const tabeligibilityCards = [
     number: "04",
     text: (
       <>
-        You Were <span className="text-[#EDC14A]">Not Fully Informed</span> About The<br />
+        You Were <span className="text-[#ED8B03]">Not Fully Informed</span> About The<br />
         Risks At The Time Of Your Procedure
       </>
     ),
@@ -99,7 +99,7 @@ const tabeligibilityCards = [
     number: "05",
     text: (
       <>
-        You Are Still Within The <span className="text-[#EDC14A]">Statute Of<br />Limitations</span> In Your State
+        You Are Still Within The <span className="text-[#ED8B03]">Statute Of<br />Limitations</span> In Your State
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -126,15 +126,15 @@ export default function TransvaginalFive() {
           {/* First Row */}
           {/* Text Block (First Cell) - Sized like a card but without background */}
           <div className="flex flex-col justify-center px-6 xl:px-8 py-6 xl:py-8 h-[140px] xl:h-[160px]">
-            <h2 className="text-[#162766] text-[28px] xl:text-[32px] font-semibold capitalize leading-tight mb-2">
-              You may <span className="text-[#EDC14A]"> qualify to file </span>{" "}
+            <h2 className="text-[#1545B5] text-[28px] xl:text-[32px] font-semibold capitalize leading-tight mb-2">
+              You may <span className="text-[#ED8B03]"> qualify to file </span>{" "}
               a lawsuit if you{" "}
             </h2>
             <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
               Unsure?{" "}
               <a
                 href="#contact-form"
-                className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+                className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
               >
                 Submit the form
               </a>{" "}
@@ -148,10 +148,10 @@ export default function TransvaginalFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+              <span className="text-[#1545B5] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#1545B5] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -163,10 +163,10 @@ export default function TransvaginalFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+              <span className="text-[#1545B5] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#1545B5] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -177,8 +177,8 @@ export default function TransvaginalFive() {
       {/*  Tablet Layout (md only) */}
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
-          <h2 className="text-[#162766] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-            You may <span className="text-[#EDC14A]"> qualify to file </span> a
+          <h2 className="text-[#1545B5] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+            You may <span className="text-[#ED8B03]"> qualify to file </span> a
             lawsuit if you{" "}
           </h2>
 
@@ -186,7 +186,7 @@ export default function TransvaginalFive() {
             Unsure?{" "}
             <a
               href="#contact-form"
-              className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+              className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
             >
               Submit the form
             </a>{" "}
@@ -200,10 +200,10 @@ export default function TransvaginalFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-3 p-6 h-[140px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] font-[Quicksand] font-normal leading-none text-[26px]">
+              <span className="text-[#1545B5] font-[Quicksand] font-normal leading-none text-[26px]">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#1545B5] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -213,15 +213,15 @@ export default function TransvaginalFive() {
 
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-        <h2 className="text-[#162766] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-          You may <span className="text-[#EDC14A]"> qualify to file </span> a
+        <h2 className="text-[#1545B5] text-[24px] font-semibold capitalize leading-snug text-left w-full">
+          You may <span className="text-[#ED8B03]"> qualify to file </span> a
           lawsuit if you{" "}
         </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
           Unsure?{" "}
           <a
             href="#contact-form"
-            className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+            className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
           >
             Submit the form
           </a>{" "}
@@ -234,10 +234,10 @@ export default function TransvaginalFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start text-left gap-3 p-5 h-[120px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] text-[30px] font-normal font-[Quicksand] leading-none">
+              <span className="text-[#1545B5] text-[30px] font-normal font-[Quicksand] leading-none">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
+              <p className="text-[#1545B5] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
                 {card.text}
               </p>
             </article>

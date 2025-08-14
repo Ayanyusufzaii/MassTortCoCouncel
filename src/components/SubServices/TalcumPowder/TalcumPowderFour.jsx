@@ -55,23 +55,23 @@ const ParaquatLawsuitOverview = () => {
         <div className="w-full max-w-[1440px] mx-auto px-[80px] py-[60px]">
           {/* Main Heading - Dual Color */}
           <h2 className="mb-6">
-            <span className="text-[#162766] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#1545B5] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{' '}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#ED8B03] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
                Talcum Powder Lawsuit 
             </span>
           </h2>
  
           {/* Description Text */}
           <p className="text-[#757575] text-[18px] font-medium leading-normal mb-8 max-w-[1200px]">
-          Thousands of women have filed lawsuits against <span className="text-[#EDC14A]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#EDC14A]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#EDC14A]">ovarian cancer.</span> <br></br><br></br>
+          Thousands of women have filed lawsuits against <span className="text-[#ED8B03]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#ED8B03]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#ED8B03]">ovarian cancer.</span> <br></br><br></br>
 
 Many juries have awarded multi-million dollar verdicts to affected women, while others are pursuing claims through mass tort litigation. 
           </p>
  
           {/* Secondary Heading */}
-          <h3 className="text-[#162766] text-[35px] font-semibold leading-normal capitalize mb-8">
+          <h3 className="text-[#1545B5] text-[35px] font-semibold leading-normal capitalize mb-8">
             The lawsuits are based on evidence that: 
           </h3>
  
@@ -84,10 +84,10 @@ Many juries have awarded multi-million dollar verdicts to affected women, while 
         index === 2 ? 'col-span-2' : ''
       }`}
     >
-      <span className="text-[#162766] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
+      <span className="text-[#1545B5] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
         {card.number}
       </span>
-      <p className="text-[#162766] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
+      <p className="text-[#1545B5] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
         {card.text}
       </p>
     </article>
@@ -101,24 +101,24 @@ Many juries have awarded multi-million dollar verdicts to affected women, while 
       <div className="md:hidden flex flex-col w-full gap-6 px-4 py-8">
         {/* Mobile Main Heading */}
         <h2 className="text-left">
-          <span className="text-[#162766] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#1545B5] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Overview of the{' '}
           </span>
          
-          <span className="text-[#EDC14A] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#ED8B03] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Talcum Powder Lawsuit
           </span>
         </h2>
  
         {/* Mobile Description */}
         <p className="text-[#757575] text-[16px] font-medium leading-normal text-left">
-           Thousands of women have filed lawsuits against <span className="text-[#EDC14A]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#EDC14A]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#EDC14A]">ovarian cancer.</span> <br></br><br></br>
+           Thousands of women have filed lawsuits against <span className="text-[#ED8B03]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#ED8B03]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#ED8B03]">ovarian cancer.</span> <br></br><br></br>
 
 Many juries have awarded multi-million dollar verdicts to affected women, while others are pursuing claims through mass tort litigation. 
           </p>
  
         {/* Mobile Secondary Heading */}
-        <h3 className="text-[#162766] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize text-left">
+        <h3 className="text-[#1545B5] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize text-left">
           The lawsuits are based on evidence that: 
         </h3>
  
@@ -129,10 +129,10 @@ Many juries have awarded multi-million dollar verdicts to affected women, while 
               key={card.number}
               className="w-full bg-white rounded-[10px] border border-white p-4 shadow-sm text-left"
             >
-              <span className="text-[#162766] text-[20px] font-semibold leading-normal mb-2 block">
+              <span className="text-[#1545B5] text-[20px] font-semibold leading-normal mb-2 block">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[16px] font-medium leading-normal">
+              <p className="text-[#1545B5] text-[16px] font-medium leading-normal">
                 {card.text}
               </p>
             </div>

@@ -26,15 +26,15 @@ const features = [
 const HomeFour = () => {
   return (
     <section
-      className="bg-[#162766] text-white py-10 px-4 sm:px-6 md:px-12"
+      className="bg-[#1545B5] text-white py-10 px-4 sm:px-6 md:px-12"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Left Title */}
         <div className="w-full lg:max-w-[280px] xl:max-w-[320px] flex justify-center lg:justify-start text-center lg:text-left">
           <h2 className="text-[26px] sm:text-[34px] lg:text-[36px] xl:text-[40px] leading-[38px] sm:leading-[46px] lg:leading-[54px] font-semibold text-white capitalize">
-            Why You <span className="text-[#FFC928]">Can</span> <br />
-            <span className="text-[#FFC928]">Always</span> Trust Us
+            Why You <span className="text-[#ED8B03]">Can</span> <br />
+            <span className="text-[#ED8B03]">Always</span> Trust Us
           </h2>
         </div>
 
@@ -43,7 +43,7 @@ const HomeFour = () => {
           {features.map((item, idx) => (
             <div
               key={idx}
-              className="rounded-[10px] border border-[#EDC14A] p-5 sm:p-6 bg-white/5 text-center transition hover:shadow-md"
+              className="rounded-[10px] border border-[#ED8B03] p-5 sm:p-6 bg-white/5 text-center transition hover:shadow-md"
             >
               <div className="flex justify-center mb-3">
                 <img

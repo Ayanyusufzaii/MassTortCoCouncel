@@ -62,26 +62,26 @@ const HomeThree = () => {
       {/* Header */}
       {isDesktop ? (
         <div className="flex justify-between items-center mb-8 flex-wrap gap-4">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#162766]">
-            What Do We <span className="text-[#EDC14A]">Help</span> You With <span className="text-[#EDC14A]">?</span>
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#1545B5]">
+            What Do We <span className="text-[#ED8B03]">Help</span> You With <span className="text-[#ED8B03]">?</span>
           </h2>
           <a
             href="/Services"
-            className="text-sm md:text-base font-semibold text-[#162766] hover:underline whitespace-nowrap "
+            className="text-sm md:text-base font-semibold text-[#1545B5] hover:underline whitespace-nowrap "
            style={{ fontFamily: 'Quicksand, sans-serif' }} >
-            See All Lawsuits <span className="text-[#EDC14A]">{'>'}</span>
+            See All Lawsuits <span className="text-[#ED8B03]">{'>'}</span>
           </a>
         </div>
       ) : (
         <div className="flex justify-between items-center mb-8  gap-4">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#162766]">
-            What Do We <span className="text-[#EDC14A]">Help You</span> With?
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#1545B5]">
+            What Do We <span className="text-[#ED8B03]">Help You</span> With?
           </h2>
           <a
             href="/Services"
-            className="text-sm md:text-base font-bold text-[#162766] hover:underline whitespace-nowrap"
+            className="text-sm md:text-base font-bold text-[#1545B5] hover:underline whitespace-nowrap"
           style={{ fontFamily: 'Quicksand, sans-serif' }} >
-            See All <span className="text-[#EDC14A]">{'>'}</span>
+            See All <span className="text-[#ED8B03]">{'>'}</span>
           </a>
         </div>
       )}

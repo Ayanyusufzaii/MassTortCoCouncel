@@ -71,8 +71,8 @@ export default function EligibilityCriteria() {
       w-[280px] h-[102px]
       xl:w-[394px] xl:h-[144px]
       2xl:w-[473px] 2xl:h-[173px]">
-      <h2 className="text-[#162766] text-[35px] xl:text-[45px] 2xl:text-[45px] font-semibold capitalize leading-tight mb-2">
-        Who We<span className="text-[#EDC14A]"> Help</span>
+      <h2 className="text-[#1545B5] text-[35px] xl:text-[45px] 2xl:text-[45px] font-semibold capitalize leading-tight mb-2">
+        Who We<span className="text-[#ED8B03]"> Help</span>
       </h2>
       <p className="text-[#757575] text-[11px] xl:text-[14px] 2xl:text-[17px] font-medium leading-[18px] xl:leading-[22px] 2xl:leading-[26px]">
         We assist individuals & families affected by:     
@@ -92,10 +92,10 @@ export default function EligibilityCriteria() {
       >
         <span className={`font-[Quicksand] font-normal leading-none 
           text-[25px] xl:text-[35px] 2xl:text-[42px]
-          ${index % 2 === 0 ? 'text-[#EDC14A]' : 'text-[#162766]'}`}>
+          ${index % 2 === 0 ? 'text-[#ED8B03]' : 'text-[#1545B5]'}`}>
           {card.number}
         </span>
-        <p className="text-[#162766] font-medium tracking-[-0.32px] capitalize text-left
+        <p className="text-[#1545B5] font-medium tracking-[-0.32px] capitalize text-left
           text-[11px] leading-[16px]
           xl:text-[16px] xl:leading-[22px]
           2xl:text-[19px] 2xl:leading-[26px]">
@@ -109,8 +109,8 @@ export default function EligibilityCriteria() {
       {/*  Tablet Layout (md only) */}
 <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
   <div className="w-full text-center -mt-8">
-    <h2 className="text-[#162766] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-      Who We<span className="text-[#EDC14A]"> Help</span>
+    <h2 className="text-[#1545B5] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+      Who We<span className="text-[#ED8B03]"> Help</span>
     </h2>
 
     <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
@@ -122,7 +122,7 @@ export default function EligibilityCriteria() {
     {eligibilityCards.map((card, index) => {
       // Cards 1 and 4 get one color, cards 2 and 3 get another
       const cardBg = (index === 0 || index === 3) ? 'bg-[#FDF9ED]' : 'bg-[#F3F4F9]';
-      const numberColor = (index === 0 || index === 3) ? 'text-[#EDC14A]' : 'text-[#162766]';
+      const numberColor = (index === 0 || index === 3) ? 'text-[#ED8B03]' : 'text-[#1545B5]';
       
       return (
         <article
@@ -132,7 +132,7 @@ export default function EligibilityCriteria() {
           <span className={`${numberColor} font-[Quicksand] font-normal leading-none text-[26px]`}>
             {card.number}
           </span>
-          <p className="text-[#162766] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
+          <p className="text-[#1545B5] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
             {card.text}
           </p>
         </article>
@@ -143,8 +143,8 @@ export default function EligibilityCriteria() {
  
       {/* Mobile Layout (below md) */}
 <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-  <h2 className="text-[#162766] text-[35px] font-semibold capitalize leading-[10px] text-left w-full">
-    Who We<span className="text-[#EDC14A]"> Help</span>
+  <h2 className="text-[#1545B5] text-[35px] font-semibold capitalize leading-[10px] text-left w-full">
+    Who We<span className="text-[#ED8B03]"> Help</span>
   </h2>
   <p className="text-[#757575] text-[16px] font-medium text-left leading-[22px] w-full">
     We assist individuals & families affected by:
@@ -153,7 +153,7 @@ export default function EligibilityCriteria() {
   <div className="grid grid-cols-2 gap-4">
     {mobileEligibilityCards.map((card, index) => {
       // Alternating number colors based on index
-      const numberColor = index % 2 === 0 ? 'text-[#EDC14A]' : 'text-[#162766]';
+      const numberColor = index % 2 === 0 ? 'text-[#ED8B03]' : 'text-[#1545B5]';
       
       return (
         <article
@@ -163,7 +163,7 @@ export default function EligibilityCriteria() {
           <span className={`${numberColor} text-[35px] font-medium font-[Quicksand] leading-none`}>
             {card.number}
           </span>
-          <p className="text-[#162766] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
+          <p className="text-[#1545B5] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
             {card.text}
           </p>
         </article>
