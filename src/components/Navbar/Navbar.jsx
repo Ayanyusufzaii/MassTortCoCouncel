@@ -202,7 +202,7 @@ function DesktopNavbar() {
 <div className="flex items-center">
   <button
     onClick={handlePhoneCall}
-    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#1545B5] transition-colors duration-200"
+    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#ffffff] transition-colors duration-200"
   >
     <div className="text-xs">CALL NOW</div>
     <div className="text-l">(888) 202 1350</div>
