@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import teamImage from '../../assets/ContactUsOneHero.webp'; 
-import bgcolor from '../../assets/herobgcontactus.png'
+import teamImage from '../../assets/ContactUsOneHero.png'; 
+
+
 const ContactOne = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -19,7 +20,7 @@ const ContactOne = () => {
           <h2 className="text-[28px] font-semibold leading-snug text-left">
             The Right Legal Help <br />
             <span className="text-white">
-              Is Just <span className="text-yellow-400">One Message</span> Away
+              Is Just <span className="text-[#ED8B03]">One Message</span> Away
             </span>
           </h2>
           <p className="mt-4 text-[15px] text-gray-200 text-left">
@@ -46,7 +47,7 @@ const ContactOne = () => {
       <h2 className="md:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold leading-snug">
         The Right Legal Help <br />
         <span className="text-white">
-          Is Just <span className="text-yellow-400">One Message</span> Away
+          Is Just <span className="text-[#ED8B03]">One Message</span> Away
         </span>
       </h2>
       <p className="mt-4 md:text-[11px] lg:text-[14px] xl:text-[18px] text-gray-200 max-w-md">

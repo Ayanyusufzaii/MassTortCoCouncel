@@ -864,7 +864,7 @@ if (!formData.lastName.trim()) {
               I agree to the{" "}
               <a
                 href="/PrivacyPolicy"
-                className="text-[#ED8B03] underline"
+                className="text-[#EDC14A] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -873,7 +873,7 @@ if (!formData.lastName.trim()) {
               and{" "}
               <a
                 href="/Disclaimer"
-                className="text-[#ED8B03] underline"
+                className="text-[#EDC14A] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -899,14 +899,14 @@ if (!formData.lastName.trim()) {
               type="submit"
               className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-blue-700"
               style={{
-                backgroundColor: "#1545B5",
+                backgroundColor: "#ED8B03",
                 color: "#fff",
                 fontFamily: "Quicksand, sans-serif",
                 whiteSpace: "nowrap",
               }}
             >
               Start My Case Review{" "}
-              <span className="text-[#ED8B03]">{" ->"}</span>
+              <span className="text-[#EDC14A]">{" ->"}</span>
             </button>
           </div>
         </div>
@@ -1005,7 +1005,7 @@ if (!formData.lastName.trim()) {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#1545B5",
+              backgroundColor: "#ED8B03",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1501,7 +1501,7 @@ const MobileForm = () => {
             I agree to the{" "}
             <a
               href="/PrivacyPolicy"
-              className="text-[#ED8B03] underline"
+              className="text-[#EDC14A] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1510,7 +1510,7 @@ const MobileForm = () => {
             and{" "}
             <a
               href="/Disclaimer"
-              className="text-[#ED8B03] underline"
+              className="text-[#EDC14A] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1534,13 +1534,13 @@ const MobileForm = () => {
             type="submit"
             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
             style={{
-              backgroundColor: "#1545B5",
+              backgroundColor: "#ED8B03",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
             }}
           >
-            Start My Case Review <span className="text-[#ED8B03]">{" ->"}</span>
+            Start My Case Review <span className="text-[#EDC14A]">{" ->"}</span>
           </button>
         </div>
       </form>
@@ -1636,7 +1636,7 @@ const MobileForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#1545B5",
+              backgroundColor: "#ED8B03",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",

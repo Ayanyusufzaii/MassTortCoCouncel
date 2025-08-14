@@ -48,7 +48,7 @@ const ContactThree = () => {
                   <Icon className="w-[clamp(1.5rem,2vw,2rem)] h-[clamp(1.5rem,2vw,2rem)]" />
                 </div>
                 <div className="flex flex-col justify-center">
-                  <p className="text-[18px] lg:text-[20px] xl:text-[22px] font-semibold text-[#ED8B03]">
+                  <p className="text-[18px] lg:text-[20px] xl:text-[22px] font-semibold text-[#1545B5]">
                     {label}
                   </p>
                   <p className="text-sm lg:text-base font-semibold text-[#1545B5] break-words">
@@ -94,7 +94,7 @@ const ContactThree = () => {
                 <Icon className="w-[28px] h-[28px]" />
               </div>
               <div>
-                <p className="text-[24px] text-[#ED8B03] font-semibold">
+                <p className="text-[24px] text-[#1545B5] font-semibold">
                   {label}
                 </p>
                 <p

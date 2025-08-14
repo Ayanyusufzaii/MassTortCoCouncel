@@ -119,7 +119,7 @@ const HomeThree = () => {
                   {item.description}
                 </p>
                 <Link to={item.link}>
-  <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
+  <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded text-sm transition-colors duration-200 hover:bg-[#ED8B03]">
     Learn More
   </button>
 </Link>
@@ -162,7 +162,7 @@ const HomeThree = () => {
                   {item.description}
                 </p>
                 <Link to={item.link}>
-  <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
+  <button className="mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded text-sm transition-colors duration-200 hover:bg-[#ED8B03]">
     Learn More
   </button>
 </Link>
