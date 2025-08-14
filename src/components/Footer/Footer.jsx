@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col">
-      <footer className="bg-[#162766] text-white relative overflow-hidden">
+      <footer className="bg-[#1545B5] text-white relative overflow-hidden">
         {/* Vector Background */}
 
 
@@ -50,7 +50,7 @@ const Footer = () => {
   Your <span className="text-[#F8D216]">Legal Options</span> Today
 </h2>
           <a href="/ContactUs">
-  <button className="bg-[#F8D216] hover:bg-yellow-600 text-[#162766] px-4 py-4 rounded font-bold mt-8">
+  <button className="bg-[#F8D216] hover:bg-yellow-600 text-[#1545B5] px-4 py-4 rounded font-bold mt-8">
     Book an Appointment
   </button>
 </a>
@@ -155,7 +155,7 @@ const Footer = () => {
               {/* Right */}
               <div className="flex items-center justify-end gap-8">
             <a href="/ContactUs">
-  <button className="bg-[#F8D216] hover:bg-[#F8D216] text-[#162766] px-2 py-2 rounded font-bold ">
+  <button className="bg-[#F8D216] hover:bg-[#F8D216] text-[#1545B5] px-2 py-2 rounded font-bold ">
     Book an Appointment
   </button>
 </a>

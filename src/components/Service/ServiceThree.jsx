@@ -65,8 +65,8 @@ const ServiceThree = () => {
     <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-12 bg-white w-full font-[Quicksand]">
       <div className="w-full max-w-[1280px] mx-auto">
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#162766]">
-            What Do We <span className="text-[#EDC14A]">Help You</span> With?
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#1545B5]">
+            What Do We <span className="text-[#ED8B03]">Help You</span> With?
           </h2>
         </div>
  

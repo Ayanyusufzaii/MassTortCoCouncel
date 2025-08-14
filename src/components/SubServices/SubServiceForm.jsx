@@ -238,7 +238,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#162766] font-medium ${
+          } bg-[#E7E9F4] text-[#1545B5] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -272,7 +272,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#162766] font-medium ${
+          } bg-[#E7E9F4] text-[#1545B5] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -311,7 +311,7 @@ const FloatingTextarea = ({ id, label, value, onChange, error, isRequired }) => 
           error ? "border-red-500" : "border-gray-300"
         } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
           error ? "focus:ring-red-500" : "focus:ring-blue-400"
-        } bg-[#E7E9F4] text-[#162766] font-medium resize-vertical`}
+        } bg-[#E7E9F4] text-[#1545B5] font-medium resize-vertical`}
         style={{ fontFamily: "Quicksand, sans-serif" }}
         placeholder=" "
       />
@@ -864,7 +864,7 @@ if (!formData.lastName.trim()) {
               I agree to the{" "}
               <a
                 href="/PrivacyPolicy"
-                className="text-[#EDC14A] underline"
+                className="text-[#ED8B03] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -873,7 +873,7 @@ if (!formData.lastName.trim()) {
               and{" "}
               <a
                 href="/Disclaimer"
-                className="text-[#EDC14A] underline"
+                className="text-[#ED8B03] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -899,14 +899,14 @@ if (!formData.lastName.trim()) {
               type="submit"
               className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-blue-700"
               style={{
-                backgroundColor: "#162766",
+                backgroundColor: "#1545B5",
                 color: "#fff",
                 fontFamily: "Quicksand, sans-serif",
                 whiteSpace: "nowrap",
               }}
             >
               Start My Case Review{" "}
-              <span className="text-[#EDC14A]">{" ->"}</span>
+              <span className="text-[#ED8B03]">{" ->"}</span>
             </button>
           </div>
         </div>
@@ -1005,7 +1005,7 @@ if (!formData.lastName.trim()) {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1501,7 +1501,7 @@ const MobileForm = () => {
             I agree to the{" "}
             <a
               href="/PrivacyPolicy"
-              className="text-[#EDC14A] underline"
+              className="text-[#ED8B03] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1510,7 +1510,7 @@ const MobileForm = () => {
             and{" "}
             <a
               href="/Disclaimer"
-              className="text-[#EDC14A] underline"
+              className="text-[#ED8B03] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1534,13 +1534,13 @@ const MobileForm = () => {
             type="submit"
             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
             }}
           >
-            Start My Case Review <span className="text-[#EDC14A]">{" ->"}</span>
+            Start My Case Review <span className="text-[#ED8B03]">{" ->"}</span>
           </button>
         </div>
       </form>
@@ -1636,7 +1636,7 @@ const MobileForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1672,7 +1672,7 @@ const SubServiceForm = () => {
       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-          style={{ color: "#162766", fontFamily: "Quicksand, sans-serif" }}
+          style={{ color: "#1545B5", fontFamily: "Quicksand, sans-serif" }}
         >
           Get Your Free Case Review Today
         </h2>

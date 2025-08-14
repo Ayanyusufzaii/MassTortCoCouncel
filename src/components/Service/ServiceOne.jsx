@@ -6,7 +6,7 @@ const ServiceOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#162766] to-[#162766]
+      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#1545B5] to-[#1545B5]
         h-[27.85vh]
         md:h-[301px]
         lg:h-[351px]
@@ -37,7 +37,7 @@ const ServiceOne = () => {
               fontWeight: 700
             }}
           >
-            Explore Active Lawsuits And Claim<span className="text-[#EDC14A] font-bold"> Your Rights</span>
+            Explore Active Lawsuits And Claim<span className="text-[#ED8B03] font-bold"> Your Rights</span>
           </h1>
          
           <h2
@@ -71,7 +71,7 @@ const ServiceOne = () => {
       </section>
  
       {/* Mobile Hero Section */}
-      <section className="bg-[#162766] flex sm:hidden relative w-full h-[654px] items-start justify-center overflow-hidden">
+      <section className="bg-[#1545B5] flex sm:hidden relative w-full h-[654px] items-start justify-center overflow-hidden">
       {/* Background Image Gradient */}
       {/* <img
         src={GradientMobileHero}

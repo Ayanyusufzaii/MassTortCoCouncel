@@ -237,7 +237,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#162766] font-medium ${
+          } bg-[#E7E9F4] text-[#1545B5] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -271,7 +271,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#162766] font-medium ${
+          } bg-[#E7E9F4] text-[#1545B5] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -306,7 +306,7 @@ const FloatingTextarea = ({ id, label, value, onChange }) => {
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== "" || focused)}
         rows={4}
-        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#162766] font-medium resize-vertical"
+        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#1545B5] font-medium resize-vertical"
         style={{ fontFamily: "Quicksand, sans-serif" }}
         placeholder=" "
       />
@@ -353,11 +353,11 @@ const CustomDropdown = ({
           error ? "border-red-500" : "border-gray-300"
         } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
           error ? "focus:ring-red-500" : "focus:ring-blue-400"
-        } appearance-none bg-[#E7E9F4] text-[#162766] text-left flex items-center justify-between text-base font-medium`}
+        } appearance-none bg-[#E7E9F4] text-[#1545B5] text-left flex items-center justify-between text-base font-medium`}
         style={{ fontFamily: "Quicksand, sans-serif" }}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-[#162766]">
+        <span className="text-[#1545B5]">
           {selectedOption ? selectedOption.label : placeholder}
         </span>
         <ChevronDown
@@ -386,11 +386,11 @@ const CustomDropdown = ({
                 key={option.value}
                 type="button"
                 onClick={() => handleSelect(option.value, option.label)}
-                className="group w-full text-left px-4 py-3 text-base text-gray-700 hover:text-[#162766] transition-colors relative flex items-center justify-between font-medium"
+                className="group w-full text-left px-4 py-3 text-base text-gray-700 hover:text-[#1545B5] transition-colors relative flex items-center justify-between font-medium"
               >
                 <span>{option.label}</span>
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  <div className="w-5 h-5 bg-[#162766] rounded-full flex items-center justify-center">
+                  <div className="w-5 h-5 bg-[#1545B5] rounded-full flex items-center justify-center">
                     <Check className="w-3 h-3 text-white" />
                   </div>
                 </div>
@@ -1003,7 +1003,7 @@ const DesktopForm = () => {
               I agree to the{" "}
               <a
                 href="/PrivacyPolicy"
-                className="text-[#EDC14A] underline"
+                className="text-[#ED8B03] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1012,7 +1012,7 @@ const DesktopForm = () => {
               and{" "}
               <a
                 href="/Disclaimer"
-                className="text-[#EDC14A] underline"
+                className="text-[#ED8B03] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1038,14 +1038,14 @@ const DesktopForm = () => {
               type="submit"
               className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-blue-700"
               style={{
-                backgroundColor: "#162766",
+                backgroundColor: "#1545B5",
                 color: "#fff",
                 fontFamily: "Quicksand, sans-serif",
                 whiteSpace: "nowrap",
               }}
             >
               Start My Case Review
-              <span className="text-[#EDC14A]">{" ->"}</span>
+              <span className="text-[#ED8B03]">{" ->"}</span>
             </button>
           </div>
         </div>
@@ -1144,7 +1144,7 @@ const DesktopForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1663,7 +1663,7 @@ const MobileForm = () => {
             I agree to the{" "}
             <a
               href="/PrivacyPolicy"
-              className="text-[#EDC14A] underline"
+              className="text-[#ED8B03] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1672,7 +1672,7 @@ const MobileForm = () => {
             and{" "}
             <a
               href="/Disclaimer"
-              className="text-[#EDC14A] underline"
+              className="text-[#ED8B03] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1696,13 +1696,13 @@ const MobileForm = () => {
             type="submit"
             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
             }}
           >
-            Start My Case Review <span className="text-[#EDC14A]">{" ->"}</span>
+            Start My Case Review <span className="text-[#ED8B03]">{" ->"}</span>
           </button>
         </div>
       </form>
@@ -1798,7 +1798,7 @@ const MobileForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#162766",
+              backgroundColor: "#1545B5",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1832,7 +1832,7 @@ const HomeTwo = () => {
       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-          style={{ color: "#162766", fontFamily: "Quicksand, sans-serif" }}
+          style={{ color: "#1545B5", fontFamily: "Quicksand, sans-serif" }}
         >
           Get Your Free Case Review Today
         </h2>
@@ -2089,7 +2089,7 @@ export default HomeTwo;
 //         onFocus={() => setFocused(true)}
 //         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
 //         readOnly={readOnly}
-//         className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#162766] font-medium ${readOnly ? 'cursor-not-allowed opacity-75' : ''}`}
+//         className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#1545B5] font-medium ${readOnly ? 'cursor-not-allowed opacity-75' : ''}`}
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         placeholder=" "
 //       />
@@ -2123,7 +2123,7 @@ export default HomeTwo;
 //         onFocus={() => setFocused(true)}
 //         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
 //         rows={4}
-//         className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#162766] font-medium resize-vertical"
+//         className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#1545B5] font-medium resize-vertical"
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         placeholder=" "
 //       />
@@ -2158,11 +2158,11 @@ export default HomeTwo;
 //     <div className="relative w-full">
 //       <button
 //         type="button"
-//         className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#162766] text-left flex items-center justify-between"
+//         className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#1545B5] text-left flex items-center justify-between"
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         onClick={() => setIsOpen(!isOpen)}
 //       >
-//         <span className={selectedOption ? 'text-[#162766]' : 'text-gray-500'}>
+//         <span className={selectedOption ? 'text-[#1545B5]' : 'text-gray-500'}>
 //           {selectedOption ? selectedOption.label : placeholder}
 //         </span>
 //         <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
@@ -2176,11 +2176,11 @@ export default HomeTwo;
 //                 key={option.value}
 //                 type="button"
 //                 onClick={() => handleSelect(option.value, option.label)}
-//                 className="group w-full text-left px-4 py-3 text-sm text-gray-700 hover:text-[#162766] transition-colors relative flex items-center justify-between"
+//                 className="group w-full text-left px-4 py-3 text-sm text-gray-700 hover:text-[#1545B5] transition-colors relative flex items-center justify-between"
 //               >
 //                 <span>{option.label}</span>
 //                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-//                   <div className="w-5 h-5 bg-[#162766] rounded-full flex items-center justify-center">
+//                   <div className="w-5 h-5 bg-[#1545B5] rounded-full flex items-center justify-center">
 //                     <Check className="w-3 h-3 text-white" />
 //                   </div>
 //                 </div>
@@ -2592,11 +2592,11 @@ export default HomeTwo;
 //     />
 //     <label htmlFor="termsAccepted" className="text-sm text-gray-700">
 //       I agree to the{' '}
-//       <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+//       <a href="/PrivacyPolicy" className="text-[#ED8B03] underline" target="_blank" rel="noopener noreferrer">
 //         Privacy Policy
 //       </a>{' '}
 //       and{' '}
-//       <a href="/Disclaimer" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+//       <a href="/Disclaimer" className="text-[#ED8B03] underline" target="_blank" rel="noopener noreferrer">
 //         Disclaimer
 //       </a>{' '}
 //       and give my express written consent, affiliates and/or lawyer to contact you at the number provided above, even if this number is a wireless number or if I am presently listed on a Do Not Call list. I understand that I may be contacted by telephone, email, text message or mail regarding case options and that I may be called using automatic dialing equipment. Message and data rates may apply. My consent does not require purchase. This is Legal advertising.
@@ -2607,13 +2607,13 @@ export default HomeTwo;
 //     type="submit"
 //     className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-blue-700"
 //     style={{
-//       backgroundColor: '#162766',
+//       backgroundColor: '#1545B5',
 //       color: '#fff',
 //       fontFamily: 'Quicksand, sans-serif',
 //       whiteSpace: 'nowrap',
 //     }}
 //   >
-//     Start My Case Review <span className="text-[#EDC14A]">{' ->'}</span>
+//     Start My Case Review <span className="text-[#ED8B03]">{' ->'}</span>
 //   </button>
 // </div>
 
@@ -2699,7 +2699,7 @@ export default HomeTwo;
 //               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
 //             }`}
 //             style={{
-//               backgroundColor: '#162766',
+//               backgroundColor: '#1545B5',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
@@ -3041,7 +3041,7 @@ export default HomeTwo;
 //   I agree to the{' '}
 //   <a
 //     href="/PrivacyPolicy"
-//     className="text-[#EDC14A] underline"
+//     className="text-[#ED8B03] underline"
 //     target="_blank"
 //     rel="noopener noreferrer"
 //   >
@@ -3050,7 +3050,7 @@ export default HomeTwo;
 //   and{' '}
 //   <a
 //     href="/Disclaimer"
-//     className="text-[#EDC14A] underline"
+//     className="text-[#ED8B03] underline"
 //     target="_blank"
 //     rel="noopener noreferrer"
 //   >
@@ -3066,13 +3066,13 @@ export default HomeTwo;
 //             type="submit"
 //             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
 //             style={{
-//               backgroundColor: '#162766',
+//               backgroundColor: '#1545B5',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
 //             }}
 //           >
-//             Start My Case Review  <span className="text-[#EDC14A]">{' ->'}</span>
+//             Start My Case Review  <span className="text-[#ED8B03]">{' ->'}</span>
 //           </button>
 //         </div>
 //       </form>
@@ -3150,7 +3150,7 @@ export default HomeTwo;
 //               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
 //             }`}
 //             style={{
-//               backgroundColor: '#162766',
+//               backgroundColor: '#1545B5',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
@@ -3184,7 +3184,7 @@ export default HomeTwo;
 //       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
 //         <h2
 //           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-//           style={{ color: '#162766', fontFamily: 'Quicksand, sans-serif' }}
+//           style={{ color: '#1545B5', fontFamily: 'Quicksand, sans-serif' }}
 //         >
 //           Get Your Free Case Review Today
 //         </h2>

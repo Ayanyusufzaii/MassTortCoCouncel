@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-       You or a family member took Oxbryta <span className="text-[#EDC14A]">  for sickle cell disease </span>
+       You or a family member took Oxbryta <span className="text-[#ED8B03]">  for sickle cell disease </span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -15,7 +15,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        Experienced<span className="text-[#EDC14A]">  liver injury</span>, <span className="text-[#EDC14A]"> stroke</span> Or <span className="text-[#EDC14A]"> Other serious health complications</span> After Use
+        Experienced<span className="text-[#ED8B03]">  liver injury</span>, <span className="text-[#ED8B03]"> stroke</span> Or <span className="text-[#ED8B03]"> Other serious health complications</span> After Use
                
       </>
     ),
@@ -25,7 +25,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-      Received<span className="text-[#EDC14A]"> Emergency </span> Or <span className="text-[#EDC14A]"> Long Term Medical Care</span>
+      Received<span className="text-[#ED8B03]"> Emergency </span> Or <span className="text-[#ED8B03]"> Long Term Medical Care</span>
        
       </>
     ),
@@ -35,7 +35,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        symptoms occurred<span className="text-[#EDC14A]"> While on  </span>Or <span className="text-[#EDC14A]"> shortly after stopping Oxbryta</span>
+        symptoms occurred<span className="text-[#ED8B03]"> While on  </span>Or <span className="text-[#ED8B03]"> shortly after stopping Oxbryta</span>
        
       </>
      
@@ -66,14 +66,14 @@ export default function EligibilityCriteria() {
    
     {/* Left Half - Heading (43.61% width) */}
     <div className="flex flex-col justify-center w-[43.61%]">
-      <h2 className="text-[#162766] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
-        Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+      <h2 className="text-[#1545B5] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
+        Who May Be <span className="text-[#ED8B03]"> Eligible</span>
       </h2>
       <p className="text-[#757575] text-[15px] xl:text-[18px] leading-[22px] xl:leading-[25px] font-medium">
         Unsure?{' '}
         <a
           href="#contact-form"
-          className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+          className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
         >
           Submit the form
         </a>
@@ -88,10 +88,10 @@ export default function EligibilityCriteria() {
           key={card.number}
           className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
         >
-          <span className="text-[#162766] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+          <span className="text-[#1545B5] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
             {card.number}
           </span>
-          <p className="text-[#162766] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+          <p className="text-[#1545B5] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
             {card.text}
           </p>
         </article>
@@ -103,15 +103,15 @@ export default function EligibilityCriteria() {
       {/*  Tablet Layout (md only) */}
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
-          <h2 className="text-[#162766] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-          Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+          <h2 className="text-[#1545B5] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+          Who May Be <span className="text-[#ED8B03]"> Eligible</span>
           </h2>
  
           <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -127,10 +127,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-3 p-6 h-[140px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] font-[Quicksand] font-normal leading-none text-[26px]">
+              <span className="text-[#1545B5] font-[Quicksand] font-normal leading-none text-[26px]">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#1545B5] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -140,14 +140,14 @@ export default function EligibilityCriteria() {
  
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-  <h2 className="text-[#162766] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-    Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+  <h2 className="text-[#1545B5] text-[24px] font-semibold capitalize leading-snug text-left w-full">
+    Who May Be <span className="text-[#ED8B03]"> Eligible</span>
   </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#ED8B03] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -160,10 +160,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start text-left gap-3 p-5 h-[120px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#162766] text-[30px] font-normal font-[Quicksand] leading-none">
+              <span className="text-[#1545B5] text-[30px] font-normal font-[Quicksand] leading-none">
                 {card.number}
               </span>
-              <p className="text-[#162766] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
+              <p className="text-[#1545B5] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
                 {card.text}
               </p>
             </article>

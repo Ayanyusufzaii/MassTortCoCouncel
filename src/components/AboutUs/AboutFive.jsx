@@ -57,7 +57,7 @@ const AboutFive = () => {
                 2xl:text-[44px]
                 min-[3840px]:text-[48px]
                 font-[Quicksand] font-bold leading-normal capitalize">
-                <span className="text-[#162766]">Our </span><span className="text-[#EDC14A]">Network</span>
+                <span className="text-[#1545B5]">Our </span><span className="text-[#ED8B03]">Network</span>
               </h1>
              
               {/* Subtext */}
@@ -89,8 +89,8 @@ const AboutFive = () => {
 
         {/* Text Content */}
         <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[97px]">
-          <h1 className="text-[#162766] mb-4 text-left capitalize text-[32px] leading-[22px] font-[Quicksand] font-bold">
-            Our <span className="text-[#EDC14A]">Network</span>
+          <h1 className="text-[#1545B5] mb-4 text-left capitalize text-[32px] leading-[22px] font-[Quicksand] font-bold">
+            Our <span className="text-[#ED8B03]">Network</span>
           </h1>
 
           <h2 className="text-[#757575] text-left text-[16px] leading-[17px] font-[Quicksand]">

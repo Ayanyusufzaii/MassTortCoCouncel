@@ -225,7 +225,7 @@ const FloatingInput = ({ type, id, label, value, onChange, error }) => {
         onChange={onChange}
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
-        className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#162766] font-medium`}
+        className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#1545B5] font-medium`}
         style={{ fontFamily: 'Quicksand, sans-serif' }}
         placeholder=" "
       />
@@ -256,7 +256,7 @@ const FloatingTextarea = ({ id, label, value, onChange }) => {
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
         rows={4}
-        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#162766] font-medium resize-vertical"
+        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#1545B5] font-medium resize-vertical"
         style={{ fontFamily: 'Quicksand, sans-serif' }}
         placeholder=" "
       />
@@ -526,7 +526,7 @@ const DesktopForm = () => {
             required
             value={formData.category}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#162766]"
+            className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#1545B5]"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             <option value="">Lawsuit Type</option>
@@ -551,11 +551,11 @@ const DesktopForm = () => {
             />
             <label htmlFor="termsAccepted" className="text-sm text-gray-700">
               I agree to the{' '}
-              <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+              <a href="/PrivacyPolicy" className="text-[#ED8B03] underline" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
               </a>{' '}
               and{' '}
-              <a href="/Disclaimer" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+              <a href="/Disclaimer" className="text-[#ED8B03] underline" target="_blank" rel="noopener noreferrer">
                 Disclaimer
               </a>{' '}
               and give my express written consent, affiliates and/or lawyer to contact you at the number provided above, even if this number is a wireless number or if I am presently listed on a Do Not Call list. I understand that I may be contacted by telephone, email, text message or mail regarding case options and that I may be called using automatic dialing equipment. Message and data rates may apply. My consent does not require purchase. This is Legal advertising.
@@ -566,13 +566,13 @@ const DesktopForm = () => {
               type="submit"
               className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[320px] px-8 md:px-32 py-4 rounded-lg shadow transition text-base md:text-lg hover:bg-blue-700"
               style={{
-                backgroundColor: '#162766',
+                backgroundColor: '#1545B5',
                 color: '#fff',
                 fontFamily: 'Quicksand, sans-serif',
                 whiteSpace: 'nowrap',
               }}
             >
-              Start My Case Review<span className="text-[#EDC14A]">{' ->'}</span>
+              Start My Case Review<span className="text-[#ED8B03]">{' ->'}</span>
             </button>
           </div>
         </div>
@@ -653,7 +653,7 @@ const DesktopForm = () => {
               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
             }`}
             style={{
-              backgroundColor: '#162766',
+              backgroundColor: '#1545B5',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -881,7 +881,7 @@ const MobileForm = () => {
             required
             value={formData.category}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#162766]"
+            className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#1545B5]"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             <option value="">Lawsuit Type</option>
@@ -904,8 +904,8 @@ const MobileForm = () => {
             style={{ width: '1.5rem', height: '1.5rem' }}
           />
           <label htmlFor="termsAccepted" className="text-xs text-gray-700">
-            I agree to the <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and
-            <a href="/Disclaimer" className="text-[#EDC14A] underline ml-1" target="_blank" rel="noopener noreferrer">Disclaimer</a> and give my express written consent to be contacted by affiliates and/or lawyers.
+            I agree to the <a href="/PrivacyPolicy" className="text-[#ED8B03] underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and
+            <a href="/Disclaimer" className="text-[#ED8B03] underline ml-1" target="_blank" rel="noopener noreferrer">Disclaimer</a> and give my express written consent to be contacted by affiliates and/or lawyers.
           </label>
         </div>
    
@@ -914,7 +914,7 @@ const MobileForm = () => {
             type="submit"
             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
             style={{
-              backgroundColor: '#162766',
+              backgroundColor: '#1545B5',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -998,7 +998,7 @@ const MobileForm = () => {
               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
             }`}
             style={{
-              backgroundColor: '#162766',
+              backgroundColor: '#1545B5',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -1032,7 +1032,7 @@ const HomeTwoo = () => {
       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-          style={{ color: '#162766', fontFamily: 'Quicksand, sans-serif' }}
+          style={{ color: '#1545B5', fontFamily: 'Quicksand, sans-serif' }}
         >
           Get Your Free Case Review Today
         </h2>
