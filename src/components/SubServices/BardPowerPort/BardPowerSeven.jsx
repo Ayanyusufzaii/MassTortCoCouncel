@@ -22,21 +22,21 @@ const handleRedirect = () => {
         {/* Left Content */}
         <div className="text-left">
           <h1
-            className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white mb-4 leading-tight"
+            className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white  mb-4 leading-tight"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
           If you're unsure, start 
 your free case Review!
           </h1>
           <h2
-            className="text-lg text-white mb-6 font-medium leading-relaxed opacity-90"
+            className="text-lg text-white  mb-6 font-medium leading-relaxed opacity-90"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
            Fill out a from to start a free case review Now.
           </h2>
         <button
   onClick={handleRedirect}
-  className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -75,21 +75,21 @@ your free case Review!
             {/* Tablet Content */}
             <div className="text-left">
               <h1 
-                className="text-3xl font-bold text-white mb-6 leading-tight"
+                className="text-3xl font-bold text-white  mb-6 leading-tight"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
               If you're unsure, start 
 your free case Review!
               </h1>
               <h2 
-                className="text-lg text-white mb-8 font-medium leading-relaxed opacity-90"
+                className="text-lg text-white  mb-8 font-medium leading-relaxed opacity-90"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                Fill out a from to start a free case review Now.
               </h2>
              <button
   onClick={handleRedirect}
-  className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -115,21 +115,21 @@ your free case Review!
           {/* Mobile Content */}
           <div className="text-center">
             <h1 
-              className="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight"
+              className="text-2xl sm:text-3xl font-bold text-white  mb-4 leading-tight"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
              If you're unsure, start 
 your free case Review!
             </h1>
             <h2 
-              className="text-base sm:text-lg text-white mb-6 font-medium leading-relaxed opacity-90"
+              className="text-base sm:text-lg text-white  mb-6 font-medium leading-relaxed opacity-90"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
              Fill out a from to start a free case review Now.
             </h2>
            <button
   onClick={handleRedirect}
-  className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review

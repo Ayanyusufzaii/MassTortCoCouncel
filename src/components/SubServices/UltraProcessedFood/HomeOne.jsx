@@ -20,13 +20,13 @@ const HomeOne = () => {
         {/* Content */}
         <div className="relative z-20 flex flex-col items-center justify-center w-full px-6 md:px-16 lg:px-24 py-8 text-center">
           <h1
-            className="text-2xl md:text-3xl lg:text-5xl font-bold text-white mb-4 drop-shadow-lg"
+            className="text-2xl md:text-3xl lg:text-5xl font-bold text-white  mb-4 drop-shadow-lg"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
           Exposed to Paraquat and Later Diagnosed with Parkinson’s?
           </h1>
           <h2
-            className="text-sm sm:text-base md:text-xs lg:text-xl text-white mb-6 font-medium drop-shadow leading-relaxed"
+            className="text-sm sm:text-base md:text-xs lg:text-xl text-white  mb-6 font-medium drop-shadow leading-relaxed"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
            Farmers, agricultural workers, and nearby residents exposed to Paraquat may face a 
@@ -47,13 +47,13 @@ eligible for settlement.
   {/* Content */}
   <div className="relative z-20 flex flex-col items-center justify-center w-full px-4 text-center">
     <h1
-      className="text-3xl font-bold text-white mb-4 drop-shadow-lg"
+      className="text-3xl font-bold text-white  mb-4 drop-shadow-lg"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
       Trusted Legal Support for Your Future
     </h1>
     <h2
-      className="text-sm text-white mb-4 font-normal drop-shadow"
+      className="text-sm text-white  mb-4 font-normal drop-shadow"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
       If you’ve been harmed by a dangerous drug, medical device, or toxic exposure, you're not alone. We help you understand your rights and connect you with experienced legal teams who put your recovery first.

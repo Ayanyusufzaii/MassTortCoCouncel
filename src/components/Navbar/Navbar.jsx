@@ -174,7 +174,7 @@ function DesktopNavbar() {
                           <span className="font-medium">{lawsuit.name}</span>
                           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                             <div className="w-5 h-5 bg-[#1545B5] rounded-full flex items-center justify-center">
-                              <Check className="w-3 h-3 text-white" />
+                              <Check className="w-3 h-3 text-white " />
                             </div>
                           </div>
                         </a>
@@ -202,7 +202,7 @@ function DesktopNavbar() {
 <div className="flex items-center">
   <button
     onClick={handlePhoneCall}
-    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#1545B5] transition-colors duration-200"
+    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white  text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#1545B5] transition-colors duration-200"
   >
     <div className="text-xs">CALL NOW</div>
     <div className="text-l">(888) 202 1350</div>
@@ -380,7 +380,7 @@ function MobileNavbar() {
             </div>
 
             <div className="mt-8 px-8 pb-8 bg-[#1545B5]">
-              <h3 className="text-white font-semibold text-lg mb-4 mt-8">Follow Us</h3>
+              <h3 className="text-white  font-semibold text-lg mb-4 mt-8">Follow Us</h3>
               <div className="flex justify-left gap-8 mt-5">
                 {socialLinks.map(({ icon: Icon, href, label }) => (
                   <a
@@ -389,7 +389,7 @@ function MobileNavbar() {
                     aria-label={label}
                     className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
                   >
-                    <Icon className="w-5 h-5 text-white" />
+                    <Icon className="w-5 h-5 text-white " />
                   </a>
                 ))}
               </div>
@@ -513,7 +513,7 @@ export default Navbar;
 //             </div>
           
 //             <div className="mt-8 px-8 pb-8 bg-[#1545B5]">
-//               <h3 className="text-gray-700 font-semibold text-lg mb-4 text-white mt-8">Follow Us</h3>
+//               <h3 className="text-gray-700 font-semibold text-lg mb-4 text-white  mt-8">Follow Us</h3>
 //                  <div className="flex justify-left gap-8 mt-5 ">
 //               {socialLinks.map(({ icon: Icon, href, label }) => (
 //                <a
@@ -522,7 +522,7 @@ export default Navbar;
 //   aria-label={label}
 //   className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 // >
-//   <Icon className="w-5 h-5 text-white" />
+//   <Icon className="w-5 h-5 text-white " />
 // </a>
 
 //               ))}

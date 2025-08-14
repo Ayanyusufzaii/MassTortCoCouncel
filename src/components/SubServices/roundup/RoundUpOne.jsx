@@ -22,7 +22,7 @@ const RoundUpOne = () => {
        
         <div className="relative z-20 flex flex-col items-center justify-center w-full px-6 md:px-16 lg:px-24 py-8 text-center">
   <h1
-    className="text-white mb-4 drop-shadow-lg capitalize font-[Quicksand] font-bold text-center
+    className="text-white  mb-4 drop-shadow-lg capitalize font-[Quicksand] font-bold text-center
       text-[23px] leading-[31px] max-w-[216px]
       sm:text-[30px] sm:leading-[40px] sm:max-w-[443px]
       md:text-[30px] md:leading-[43px] md:max-w-[590px]
@@ -35,7 +35,7 @@ const RoundUpOne = () => {
     with Non-Hodgkin's Lymphoma?
   </h1>
   <h2
-    className="text-white mb-6 drop-shadow font-[Quicksand] font-normal text-center
+    className="text-white  mb-6 drop-shadow font-[Quicksand] font-normal text-center
       text-[9px] leading-[15px] max-w-[220px]
       sm:text-[12px] sm:leading-[20px] sm:max-w-[451px]
       md:text-[13px] md:leading-[22px] md:max-w-[501px]
@@ -61,12 +61,12 @@ const RoundUpOne = () => {
   {/* Content */}
   <div className="relative z-20 flex flex-col items-center w-full px-4 text-center pt-[50px]">
        <h1
-      className="text-[36px] leading-[40px] font-bold text-white mb-8 mt-8 drop-shadow-lg font-[Quicksand]"
+      className="text-[36px] leading-[40px] font-bold text-white  mb-8 mt-8 drop-shadow-lg font-[Quicksand]"
     >
       Used Roundup and Later Diagnosed with Non-Hodgkin's Lymphoma?
     </h1>
     {/* <h2
-      className="text-sm text-white mb-4 font-normal drop-shadow"
+      className="text-sm text-white  mb-4 font-normal drop-shadow"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
 Lawsuits allege long-term exposure to Roundup's glyphosate causes cancer. If you or a loved one developed non-Hodgkin's lymphoma, you may qualify for a settlement.    </h2> */}

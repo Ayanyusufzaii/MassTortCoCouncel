@@ -44,7 +44,7 @@ const ContactThree = () => {
               onClick={action}
               key={idx}
                className="flex items-start gap-4">
-                <div className="bg-[#1545B5] rounded-[13px] flex justify-center items-center text-white w-[clamp(3.5rem,4vw,4.5rem)] h-[clamp(3.5rem,4vw,4.5rem)] hover:scale-[1.05] transition-transform duration-200">
+                <div className="bg-[#1545B5] rounded-[13px] flex justify-center items-center text-white  w-[clamp(3.5rem,4vw,4.5rem)] h-[clamp(3.5rem,4vw,4.5rem)] hover:scale-[1.05] transition-transform duration-200">
                   <Icon className="w-[clamp(1.5rem,2vw,2rem)] h-[clamp(1.5rem,2vw,2rem)]" />
                 </div>
                 <div className="flex flex-col justify-center">
@@ -69,7 +69,7 @@ const ContactThree = () => {
             {[FaFacebookF, BsTwitterX, Instagram].map((Icon, index) => (
               <div
                 key={index}
-                className="w-[clamp(3.5rem,4vw,4.5rem)] h-[clamp(3.5rem,4vw,4.5rem)] bg-[#1545B5] rounded-[13px] flex justify-center items-center text-white hover:scale-[1.05] transition-transform duration-200"
+                className="w-[clamp(3.5rem,4vw,4.5rem)] h-[clamp(3.5rem,4vw,4.5rem)] bg-[#1545B5] rounded-[13px] flex justify-center items-center text-white  hover:scale-[1.05] transition-transform duration-200"
               >
                 <Icon className="w-[clamp(1.5rem,2vw,2rem)] h-[clamp(1.5rem,2vw,2rem)]" />
               </div>
@@ -90,7 +90,7 @@ const ContactThree = () => {
           ].map(({ icon: Icon, label, value , action}, idx) => (
             <div  onClick={action}
             key={idx} className="flex items-center gap-3">
-              <div className="bg-[#1545B5] p-2 rounded-md w-[48px] h-[48px] text-white flex items-center justify-center">
+              <div className="bg-[#1545B5] p-2 rounded-md w-[48px] h-[48px] text-white  flex items-center justify-center">
                 <Icon className="w-[28px] h-[28px]" />
               </div>
               <div>
@@ -116,7 +116,7 @@ const ContactThree = () => {
             {[FaFacebookF, BsTwitterX, Instagram].map((Icon, idx) => (
               <div
                 key={idx}
-                className="bg-[#1545B5] p-2 rounded-md text-white w-[48px] h-[48px] flex items-center justify-center"
+                className="bg-[#1545B5] p-2 rounded-md text-white  w-[48px] h-[48px] flex items-center justify-center"
               >
                 <Icon className="w-[28px] h-[28px]" />
               </div>

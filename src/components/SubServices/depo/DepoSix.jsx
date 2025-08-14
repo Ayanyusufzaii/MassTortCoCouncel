@@ -4,7 +4,7 @@ import leftImg from "../../../assets/Rectangle 4604.png";
 export default function Compensation() {
   return (
     <section
-      className="relative text-white font-[Quicksand] w-full"
+      className="relative text-white  font-[Quicksand] w-full"
       style={{
         background: "#1545B5",
         zIndex: 0,
@@ -27,11 +27,11 @@ export default function Compensation() {
           {/* Right: Text */}
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-4">
             <div className="max-w-[600px] w-full">
-              <h2 className="font-medium leading-snug text-[22px] md:text-[22px] lg:text-[30px] xl:text-[35px] text-white mb-4 ">
+              <h2 className="font-medium leading-snug text-[22px] md:text-[22px] lg:text-[30px] xl:text-[35px] text-white  mb-4 ">
                 What <span className="text-[#ED8B03]">Settlement</span> May Cover
                 
               </h2>
-              <ul className="list-disc pl-12 text-[10px] md:text-[12px] lg:text-[16px] xl:text-[18px] space-y-2 leading-relaxed text-white ">
+              <ul className="list-disc pl-12 text-[10px] md:text-[12px] lg:text-[16px] xl:text-[18px] space-y-2 leading-relaxed text-white  ">
                 <li>Medical bills and diagnostic testing</li>
               <li>Brain tumor treatment or surgery </li>
               <li>Lost wages or inability to work</li>
@@ -54,7 +54,7 @@ export default function Compensation() {
           </div>
 
           {/* Text */}
-          <div className="w-full text-white pt-4">
+          <div className="w-full text-white  pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-medium mb-3 leading-tight text-left">
               What <span className="text-[#ED8B03]"> Settlement </span> May Cover
             </h2>

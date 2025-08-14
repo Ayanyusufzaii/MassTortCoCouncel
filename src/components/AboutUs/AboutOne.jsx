@@ -47,7 +47,7 @@ const AboutOne = () => {
           4xl:pl-[160px]">
           
           <h1
-            className="text-white mb-4 md:mb-5 lg:mb-6 drop-shadow-lg text-left capitalize
+            className="text-white  mb-4 md:mb-5 lg:mb-6 drop-shadow-lg text-left capitalize
               text-[35px] leading-[42px] max-w-[85vw]
               md:text-[38px] md:leading-[30px] md:max-w-[50vw]
               lg:text-[44px] lg:leading-[35px] lg:max-w-[45vw]
@@ -60,7 +60,7 @@ const AboutOne = () => {
           </h1>
           
           <h2
-            className="text-white drop-shadow text-left
+            className="text-white  drop-shadow text-left
               text-[8px] leading-[8px] max-w-[318px]
               md:text-[10px] md:leading-[12px] md:max-w-[368px]
               lg:text-[12px] lg:leading-[14px] lg:max-w-[490px]
@@ -96,7 +96,7 @@ by dangerous drugs, medical devices, and toxic exposures with legal teams who un
         {/* Content - Positioned at top */}
         <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[50px]">
           <h1 
-            className="text-white mb-4 text-left capitalize
+            className="text-white  mb-4 text-left capitalize
               text-[32px] leading-normal
               font-[Quicksand] font-bold"
           >
@@ -104,7 +104,7 @@ by dangerous drugs, medical devices, and toxic exposures with legal teams who un
           </h1>
           
           <h2 
-            className="text-white text-left
+            className="text-white  text-left
               text-[15px] leading-normal
               font-[Quicksand]"
           >

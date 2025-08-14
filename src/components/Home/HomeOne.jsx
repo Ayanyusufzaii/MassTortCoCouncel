@@ -26,13 +26,13 @@ const HomeOne = () => {
         {/* Content */}
         <div className="relative z-20 flex flex-col items-start w-full px-6 md:px-16 lg:px-24 py-8">
           <h1
-            className="text-2xl md:text-4xl  lg:text-5xl xl:text-6xl font-bold text-white mb-4 drop-shadow-lg text-left"
+            className="text-2xl md:text-4xl  lg:text-5xl xl:text-6xl font-bold text-white  mb-4 drop-shadow-lg text-left"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             Trusted Legal Support <br></br>for Your Future
           </h1>
           <h2
-            className="text-sm sm:text-base md:text-xs  xl:text-xl text-white mb-6 font-medium drop-shadow text-left leading-relaxed"
+            className="text-sm sm:text-base md:text-xs  xl:text-xl text-white  mb-6 font-medium drop-shadow text-left leading-relaxed"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             If you’ve been harmed by a dangerous drug, medical device,<br />
@@ -66,10 +66,10 @@ const HomeOne = () => {
         />
         {/* Content */}
         <div className="relative z-20 flex flex-col items-center justify-end w-full px-3 pb-8">
-          <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-lg text-center" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+          <h1 className="text-4xl font-bold text-white  mb-2 drop-shadow-lg text-center" style={{ fontFamily: 'Quicksand, sans-serif' }}>
             Trusted Legal Support for Your Future
           </h1>
-          <h2 className="text-sm text-white mb-4 font-normal drop-shadow text-center" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+          <h2 className="text-sm text-white  mb-4 font-normal drop-shadow text-center" style={{ fontFamily: 'Quicksand, sans-serif' }}>
             If you’ve been harmed by a dangerous drug, medical device, or toxic exposure, you're not alone. We help you understand your rights and connect you with experienced legal teams who put your recovery first.
           </h2>
           <button 

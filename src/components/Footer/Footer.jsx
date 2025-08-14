@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col">
-      <footer className="bg-[#1545B5] text-white relative overflow-hidden">
+      <footer className="bg-[#1545B5] text-white  relative overflow-hidden">
         {/* Vector Background */}
 
 
@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Mobile View */}
           <div className="block md:hidden text-center">
             <h2 className="text-3xl font-bold font-[Quicksand] mt-8">Contact Us To Explore </h2>
-<h2 className="text-3xl font-bold font-[Quicksand] mt-2 text-white">
+<h2 className="text-3xl font-bold font-[Quicksand] mt-2 text-white ">
   Your <span className="text-[#F8D216]">Legal Options</span> Today
 </h2>
           <a href="/ContactUs">
@@ -65,7 +65,7 @@ const Footer = () => {
   aria-label={label}
   className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
-  <Icon className="w-5 h-5 text-white" />
+  <Icon className="w-5 h-5 text-white " />
 </a>
 
               ))}
@@ -78,7 +78,7 @@ const Footer = () => {
                   key={link.name}
                   href={link.href}
                   className={`text-base font-medium transition-colors ${
-                    location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white'
+                    location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white '
                   }`}
                   aria-current={location.pathname === link.href ? 'page' : undefined}
                 >
@@ -96,7 +96,7 @@ const Footer = () => {
               
               <nav className="flex justify-between items-center mt-2 ">
   {/* Left side */}
-  <div className="text-2xl font-bold text-white font-[Quicksand]">
+  <div className="text-2xl font-bold text-white  font-[Quicksand]">
     <div>
                   <Link to="/">
                     <img src={logo} alt="Logo" className="h-[25px] w-auto" />
@@ -109,13 +109,13 @@ const Footer = () => {
      
     <Link
       to="/PrivacyPolicy"
-      className="font-[Quicksand] text-sm text-gray-300 hover:text-white transition"
+      className="font-[Quicksand] text-sm text-gray-300 hover:text-white  transition"
     >
       Privacy Policy
     </Link>
    <Link
       to="/Disclaimer"
-      className="font-[Quicksand] text-sm text-gray-300 hover:text-white transition"
+      className="font-[Quicksand] text-sm text-gray-300 hover:text-white  transition"
     >
       Disclaimer
     </Link>
@@ -132,7 +132,7 @@ const Footer = () => {
               {/* Left */}
               <div>
                  <h2 className="text-2xl font-bold font-[Quicksand] mt-8">Contact Us To Explore </h2>
-          <h2 className="text-2xl font-bold font-[Quicksand] mt-2 text-white">
+          <h2 className="text-2xl font-bold font-[Quicksand] mt-2 text-white ">
   Your <span className="text-[#F8D216]">Legal Options</span> Today
 </h2>
 
@@ -142,7 +142,7 @@ const Footer = () => {
                       key={link.name}
                       href={link.href}
                       className={`text-base font-medium transition-colors ${
-                        location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white'
+                        location.pathname === link.href ? 'text-[#F8D216]' : 'text-gray-300 hover:text-white '
                       }`}
                       aria-current={location.pathname === link.href ? 'page' : undefined}
                     >
@@ -168,7 +168,7 @@ const Footer = () => {
   aria-label={label}
   className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
-  <Icon className="w-5 h-5 text-white" />
+  <Icon className="w-5 h-5 text-white " />
 </a>
 
                 ))}
@@ -192,7 +192,7 @@ const Footer = () => {
                       <Link
                         key={link.name}
                         to={link.path}
-                        className="text-sm text-gray-300 hover:text-white transition"
+                        className="text-sm text-gray-300 hover:text-white  transition"
                       >
                         {link.name}
                       </Link>

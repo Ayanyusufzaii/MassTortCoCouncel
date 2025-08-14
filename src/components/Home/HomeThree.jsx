@@ -107,7 +107,7 @@ const HomeThree = () => {
                   className="w-full h-full object-cover rounded-lg" 
                 />
                 <div className="absolute bottom-0 left-0 w-full flex justify-center items-end px-2 sm:px-4 py-2 sm:py-3">
-                  <h3 className="text-[16px] sm:text-[20px] font-quicksand font-bold text-white text-center truncate max-w-full">
+                  <h3 className="text-[16px] sm:text-[20px] font-quicksand font-bold text-white  text-center truncate max-w-full">
                     {item.title}
                   </h3>
                 </div>
@@ -150,7 +150,7 @@ const HomeThree = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
                 <div className="absolute bottom-0 left-0 w-full flex justify-center items-end px-2 sm:px-4 py-2 sm:py-3">
-                  <h3 className="text-[16px] sm:text-[20px] font-quicksand font-bold text-white text-center truncate max-w-full">
+                  <h3 className="text-[16px] sm:text-[20px] font-quicksand font-bold text-white  text-center truncate max-w-full">
                     {item.title}
                   </h3>
                 </div>

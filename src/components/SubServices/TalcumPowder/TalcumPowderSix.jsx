@@ -4,7 +4,7 @@ import leftImg from "../../../assets/Rectangle 4604.png";
 export default function Compensation() {
   return (
     <section
-      className="relative text-white font-[Quicksand] w-full"
+      className="relative text-white  font-[Quicksand] w-full"
       style={{ 
         background: "#1545B5",
         zIndex: 0,
@@ -27,14 +27,14 @@ export default function Compensation() {
           {/* Right: Text */}
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-6">
             <div className="max-w-[600px] w-full">
-              <h2 className="font-semibold capitalize leading-snug text-[20px] md:text-[28px] lg:text-[40px] text-white mb-4">
+              <h2 className="font-semibold capitalize leading-snug text-[20px] md:text-[28px] lg:text-[40px] text-white  mb-4">
                 What <span className="text-[#ED8B03]">Settlement</span>
                 <span className="md:hidden lg:inline"> May Cover</span>
                 <span className="hidden md:inline lg:hidden">
                   <br />May Cover
                 </span>
               </h2>
-              <ul className="list-disc pl-5 text-[14px] md:text-[16px] lg:text-[22px] font-medium space-y-2 leading-relaxed text-white">
+              <ul className="list-disc pl-5 text-[14px] md:text-[16px] lg:text-[22px] font-medium space-y-2 leading-relaxed text-white ">
                 <li>Medical bills, surgeries, and cancer treatment</li>
                 <li>Lost wages and future loss of income </li>
                 <li>Pain and suffering </li>
@@ -57,7 +57,7 @@ export default function Compensation() {
           </div>
 
           {/* Text */}
-          <div className="w-full text-white pt-4">
+          <div className="w-full text-white  pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-semibold capitalize mb-3 leading-tight text-left">
               What <span className="text-[#ED8B03]">Settlement</span> May Cover
             </h2>

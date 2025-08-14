@@ -28,13 +28,13 @@ const ServiceTwo = () => {
     <>
       {/* ===== DESKTOP SECTION ===== */}
       <section
-        className="hidden md:block bg-[#1545B5] text-white py-12 px-4 sm:px-8 md:px-16"
+        className="hidden md:block bg-[#1545B5] text-white  py-12 px-4 sm:px-8 md:px-16"
         style={{ fontFamily: 'Quicksand, sans-serif' }}
       >
         <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Title */}
           <div className="w-full lg:w-[300px] flex justify-center lg:justify-start">
-            <h2 className="text-center text-[32px] sm:text-[36px] font-quicksand font-semibold text-white leading-[48px] sm:leading-[60px] capitalize">
+            <h2 className="text-center text-[32px] sm:text-[36px] font-quicksand font-semibold text-white  leading-[48px] sm:leading-[60px] capitalize">
               Why You <span className="text-[#ED8B03] font-quicksand">Can</span> <br />
               <span className="text-[#ED8B03] font-quicksand">Always</span> Trust Us
             </h2>
@@ -68,13 +68,13 @@ const ServiceTwo = () => {
 
       {/* ===== MOBILE SECTION ===== */}
       <section
-        className="block md:hidden bg-[#1545B5] text-white py-12 px-4"
+        className="block md:hidden bg-[#1545B5] text-white  py-12 px-4"
         style={{ fontFamily: 'Quicksand, sans-serif' }}
       >
         <div className="max-w-[1440px] mx-auto flex flex-col items-center gap-8">
           {/* Title */}
           <div className="w-full flex justify-center">
-            <h2 className="text-center text-[32px] font-quicksand font-semibold text-white leading-[48px] capitalize">
+            <h2 className="text-center text-[32px] font-quicksand font-semibold text-white  leading-[48px] capitalize">
               Why You <span className="text-[#ED8B03] font-quicksand">Can</span> <br />
               <span className="text-[#ED8B03] font-quicksand">Always</span> Trust Us
             </h2>

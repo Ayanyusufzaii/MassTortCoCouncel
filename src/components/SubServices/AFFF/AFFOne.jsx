@@ -27,7 +27,7 @@ const AFFOne = () => {
     min-[3840px]:w-[1782px] min-[3840px]:gap-[40px]
     px-4 text-center">
     
-    <h1 className="text-white drop-shadow-lg font-[Quicksand] font-bold capitalize
+    <h1 className="text-white  drop-shadow-lg font-[Quicksand] font-bold capitalize
       text-[32px] leading-[42px]
       md:text-[24px] md:leading-[30px]
       lg:text-[34px] lg:leading-[52px]
@@ -37,7 +37,7 @@ const AFFOne = () => {
       Diagnosed with Cancer After Exposure to Firefighting Foam?
     </h1>
     
-    <h2 className="text-white drop-shadow font-[Quicksand]
+    <h2 className="text-white  drop-shadow font-[Quicksand]
       text-[13px] leading-[22px]
       md:text-[13px] md:leading-[23px]
       lg:text-[16px] lg:leading-[26px]
@@ -60,12 +60,12 @@ const AFFOne = () => {
   {/* Content */}
   <div className="relative z-20 flex flex-col items-center justify-center w-full px-4 text-center">
          <h1
-          className="text-white capitalize text-[32px] min-[390px]:text-[40px] min-[500px]:text-[38px] leading-[42px] font-[Quicksand] font-bold -mt-[300px]"
+          className="text-white  capitalize text-[32px] min-[390px]:text-[40px] min-[500px]:text-[38px] leading-[42px] font-[Quicksand] font-bold -mt-[300px]"
         >
       Diagnosed with Cancer After Exposure to Firefighting Foam?
     </h1>
     {/* <h2
-      className="text-sm text-white mb-4 font-normal drop-shadow"
+      className="text-sm text-white  mb-4 font-normal drop-shadow"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
     Firefighters and military personnel exposed to AFFF may face increased cancer risks from toxic PFAS chemicals. You may qualify for settlement.

@@ -12,19 +12,19 @@ const HomeSeven = () => {
         {/* Left Content */}
         <div className="text-left">
           <h1
-            className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white mb-4 leading-tight"
+            className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white  mb-4 leading-tight"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             Were You Diagnosed After Using Depo-Provera? 
           </h1>
           <h2
-            className="text-lg text-white mb-6 font-medium leading-relaxed opacity-90"
+            className="text-lg text-white  mb-6 font-medium leading-relaxed opacity-90"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             You may be entitled to compensation. Start with a free, confidential legal case review today. 
           </h2>
           <button
-            className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             Start My Case Review
@@ -62,19 +62,19 @@ const HomeSeven = () => {
             {/* Tablet Content */}
             <div className="text-left">
               <h1 
-                className="text-3xl font-bold text-white mb-6 leading-tight"
+                className="text-3xl font-bold text-white  mb-6 leading-tight"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Used Depo-Provera and Diagnosed with a Brain Tumor or Neurological Condition?
               </h1>
               <h2 
-                className="text-lg text-white mb-8 font-medium leading-relaxed opacity-90"
+                className="text-lg text-white  mb-8 font-medium leading-relaxed opacity-90"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Depo-Provera has been linked to brain tumors, pseudotumor cerebri, and bone loss. You may qualify for compensation. Get a free legal case review now.
               </h2>
               <button 
-                className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Start My Case Review
@@ -99,19 +99,19 @@ const HomeSeven = () => {
           {/* Mobile Content */}
           <div className="text-center">
             <h1 
-              className="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight"
+              className="text-2xl sm:text-3xl font-bold text-white  mb-4 leading-tight"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
               Used Depo-Provera and Diagnosed with a Brain Tumor?
             </h1>
             <h2 
-              className="text-base sm:text-lg text-white mb-6 font-medium leading-relaxed opacity-90"
+              className="text-base sm:text-lg text-white  mb-6 font-medium leading-relaxed opacity-90"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
               Depo-Provera has been linked to brain tumors and other serious conditions. You may qualify for compensation.
             </h2>
             <button 
-              className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
+              className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
               Start My Case Review

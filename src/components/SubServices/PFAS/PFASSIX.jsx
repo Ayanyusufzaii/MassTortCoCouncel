@@ -14,7 +14,7 @@ const compensationItems = [
 export default function Compensation() {
   return (
     <section
-      className="relative text-white font-[Quicksand] w-full"
+      className="relative text-white  font-[Quicksand] w-full"
       style={{ background: "#1545B5", zIndex: 0, opacity: 1 }}
     >
       <div className="relative max-w-[1200px] 2xl:max-w-[1400px] w-full mx-auto px-4 sm:px-5 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
@@ -34,14 +34,14 @@ export default function Compensation() {
           {/* Right: Text */}
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-6">
             <div className="max-w-[600px] w-full">
-              <h2 className="font-semibold capitalize leading-snug text-[25px] md:text-[27px] lg:text-[30px] xl:text-[34px] text-white mb-4">
+              <h2 className="font-semibold capitalize leading-snug text-[25px] md:text-[27px] lg:text-[30px] xl:text-[34px] text-white  mb-4">
                 What <span className="text-[#ED8B03]">Settlement</span>
                 <span className=" lg:inline"> May Cover</span>
                 {/* <span className="hidden md:inline lg:hidden">
                   <br />May Cover
                 </span> */}
               </h2>
-              <ul className="list-disc pl-5 text-[14px] md:text-[18px] lg:text-[20px] xl:text-[22px] font-medium space-y-2 leading-relaxed text-white mt-8">
+              <ul className="list-disc pl-5 text-[14px] md:text-[18px] lg:text-[20px] xl:text-[22px] font-medium space-y-2 leading-relaxed text-white  mt-8">
                 {compensationItems.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -62,7 +62,7 @@ export default function Compensation() {
           </div>
  
           {/* Text */}
-          <div className="w-full text-white pt-4">
+          <div className="w-full text-white  pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-semibold capitalize mb-3 leading-tight text-left">
               What <span className="text-[#ED8B03]">Settlement</span> May Cover
             </h2>

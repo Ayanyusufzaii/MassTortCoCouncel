@@ -81,7 +81,7 @@ const ServiceThree = () => {
                     className="w-full h-full object-fill rounded-[10%]"
                   />
                   <div className="absolute bottom-0 left-0 w-full text-left px-3 py-3">
-                    <h3 className="text-[14px] sm:text-[13px] font-bold text-white leading-tight px-3 py-2 break-words whitespace-normal">
+                    <h3 className="text-[14px] sm:text-[13px] font-bold text-white  leading-tight px-3 py-2 break-words whitespace-normal">
                       {item.title}
                     </h3>
                   </div>
@@ -108,7 +108,7 @@ const ServiceThree = () => {
                     className="w-full h-full object-fill"
                   />
                   <div className="absolute bottom-0 left-0 w-full text-left px-4 py-3">
-                    <h3 className="text-[16px] font-bold text-white leading-tight px-3 py-2 break-words whitespace-normal">
+                    <h3 className="text-[16px] font-bold text-white  leading-tight px-3 py-2 break-words whitespace-normal">
                       {item.title}
                     </h3>
                   </div>

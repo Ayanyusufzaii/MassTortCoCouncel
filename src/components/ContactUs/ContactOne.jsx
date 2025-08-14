@@ -13,13 +13,13 @@ const ContactOne = () => {
   }, []);
 
   return (
-    <div className="bg-[#1545B5] text-white px-4" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+    <div className="bg-[#1545B5] text-white  px-4" style={{ fontFamily: 'Quicksand, sans-serif' }}>
       {isMobile ? (
         // ---------------------- MOBILE VERSION ----------------------
         <div className="pt-8">
           <h2 className="text-[28px] font-semibold leading-snug text-left">
             The Right Legal Help <br />
-            <span className="text-white">
+            <span className="text-white ">
               Is Just <span className="text-[#ED8B03]">One Message</span> Away
             </span>
           </h2>
@@ -41,12 +41,12 @@ const ContactOne = () => {
 
 
   {/* Content */}
-  <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-8 relative z-10 text-white px-4">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-8 relative z-10 text-white  px-4">
     {/* Left Content */}
     <div>
       <h2 className="md:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold leading-snug">
         The Right Legal Help <br />
-        <span className="text-white">
+        <span className="text-white ">
           Is Just <span className="text-[#ED8B03]">One Message</span> Away
         </span>
       </h2>

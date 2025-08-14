@@ -84,7 +84,7 @@ import aposthopthe_icon from "../../assets/aposthopthe_icon.png";
 export default function HomeFive() {
   return (
     <section
-      className="relative text-white font-[Quicksand] w-full bg-[#F3F4F9]"
+      className="relative text-white  font-[Quicksand] w-full bg-[#F3F4F9]"
       style={{ background: "#F3F4F9", zIndex: 0, opacity: 1 }}
     >
       <div className="relative max-w-[1200px] 2xl:max-w-[1400px] w-full mx-auto px-4 sm:px-5 md:px-6 lg:px-8 xl:px-10 2xl:px-12">

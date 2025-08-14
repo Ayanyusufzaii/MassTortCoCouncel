@@ -50,12 +50,12 @@ const AboutSix = () => {
       alt="quote icon"
       className="w-[40px] h-[32px] sm:w-[50px] sm:h-[40px] md:w-[60px] md:h-[48px] lg:w-[70px] lg:h-[56px] xl:w-[76px] xl:h-[60px]"
     />
-    <p className="text-white font-quicksand capitalize text-[16px] sm:text-[18px] md:text-[22px] lg:text-[28px] xl:text-[32px] leading-snug">
+    <p className="text-white  font-quicksand capitalize text-[16px] sm:text-[18px] md:text-[22px] lg:text-[28px] xl:text-[32px] leading-snug">
       If you or a loved one has been affected by a harmful product or exposure, we’re here to help you take the first step toward justice.
     </p>
 
     <Link to="/Services">
-      <button className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+      <button className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
         Explore Active Lawsuits
       </button>
     </Link>
@@ -88,7 +88,7 @@ const AboutSix = () => {
             </p>
             <Link to="/Services">
               <button
-                className="bg-[#ED8B03] hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Explore Active Lawsuits
@@ -116,7 +116,7 @@ const AboutSix = () => {
       />
 
       {/* Text */}
-      <p className="text-white font-quicksand text-[28px] font-normal capitalize leading-snug w-full">
+      <p className="text-white  font-quicksand text-[28px] font-normal capitalize leading-snug w-full">
         If you or a loved one has been affected by a harmful product or
         exposure, we're here to help you take the first step toward justice.
       </p>

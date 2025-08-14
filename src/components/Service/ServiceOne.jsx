@@ -24,7 +24,7 @@ const ServiceOne = () => {
           4xl:pl-[160px]">
          
           <h1
-            className="text-white mb-4 md:mb-5 lg:mb-6 drop-shadow-lg text-left capitalize
+            className="text-white  mb-4 md:mb-5 lg:mb-6 drop-shadow-lg text-left capitalize
               text-[32px] leading-[42px] max-w-[85vw]
               md:text-[26px] md:leading-[28px] md:max-w-[40vw]
               lg:text-[40px] lg:leading-[53px] lg:max-w-[45vw]
@@ -41,7 +41,7 @@ const ServiceOne = () => {
           </h1>
          
           <h2
-            className="text-white mb-6 md:mb-8 lg:mb-10 drop-shadow text-left
+            className="text-white  mb-6 md:mb-8 lg:mb-10 drop-shadow text-left
               text-[14px] leading-[23px] max-w-[90vw]
               md:text-[10px] md:leading-[15px] md:max-w-[45vw]
               lg:text-[12px] lg:leading-[27px] lg:max-w-[50vw]
@@ -92,14 +92,14 @@ const ServiceOne = () => {
       {/* Hero Text Content */}
       <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[50px]">
         <h1
-          className="text-white mb-4 text-left capitalize text-[25px] min-[350px]:text-[28px] leading-normal max-w-[358px] font-[Quicksand] font-bold"
+          className="text-white  mb-4 text-left capitalize text-[25px] min-[350px]:text-[28px] leading-normal max-w-[358px] font-[Quicksand] font-bold"
         >
           Explore Active Lawsuits<br />
           And Claim Your Rights
         </h1>
 
         <h2
-          className="text-white text-left capitalize text-[12px] min-[350px]:text-[14px] leading-[23px] tracking-[-0.15px] max-w-[358px] font-[Quicksand] font-medium"
+          className="text-white  text-left capitalize text-[12px] min-[350px]:text-[14px] leading-[23px] tracking-[-0.15px] max-w-[358px] font-[Quicksand] font-medium"
         >
           Discover legal actions against companies that endangered lives. If you were harmed by a drug, toxic exposure, or defective product, you may be eligible for a settlement. Click to learn more and connect with attorneys – at no cost to you.
         </h2>
