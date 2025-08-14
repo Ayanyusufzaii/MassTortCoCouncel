@@ -387,7 +387,7 @@ function MobileNavbar() {
                     key={label}
                     href={href}
                     aria-label={label}
-                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#1545B5] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
                   >
                     <Icon className="w-5 h-5 text-white" />
                   </a>

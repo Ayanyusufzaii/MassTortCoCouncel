@@ -8,7 +8,7 @@ import HomeFour from './HomeFour.jsx';
 import HomeFive from './HomeFive.jsx';
 import HomeSix from './HomeSix.jsx';
  
-const TURNSTILE_SITE_KEY = '0x4AAAAAABqkB-0Ch_CK54gX';
+const TURNSTILE_SITE_KEY = '0x4AAAAAABrnBBFcKq6AcVPT';
  
 const HomeMain = () => {
   const [verified, setVerified] = useState(false);
