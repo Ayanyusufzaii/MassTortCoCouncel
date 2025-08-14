@@ -1,8 +1,8 @@
 import React from 'react'
-import blueMt from '../../assets/mountttt.png'
+import blueMt from '../../assets/mounttbigg.png'
 import dots from '../../assets/dots002.png'
 import bgImg from '../../assets/bg002.png'
-import MobileHeroBg from '../../assets/mountmobilee.png'
+import MobileHeroBg from '../../assets/mounttmobilee.png'
 
 const AboutTwo = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import bgImg from '../../assets/MAAP.png'
+import bgImg from '../../assets/mapssimagee.png'
 import bgImgL from '../../assets/MAAP.png'
 import dots from '../../assets/dots.png'
-import map from '../../assets/MOBMAP.png'
+import map from '../../assets/mapmobilee.png'
 // You'll need to add your new right section background image
 // import rightBgImg from '../../assets/RIGHT_SECTION_BG.png'
 
@@ -69,7 +69,7 @@ const AboutFive = () => {
               2xl:text-[20px] 2xl:leading-[27px]
               min-[3840px]:text-[22px] min-[3840px]:leading-[30px]
               font-[Quicksand] font-medium">
-  ConnectwithAttorney partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
+  Mass Tort Co-counsel partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
 </p>
 
             </div>
@@ -94,7 +94,7 @@ const AboutFive = () => {
           </h1>
 
           <h2 className="text-[#757575] text-left text-[16px] leading-[17px] font-[Quicksand]">
-            ConnectwithAttorney partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
+            Mass Tort Co-counsel partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
           </h2>
         </div>
 

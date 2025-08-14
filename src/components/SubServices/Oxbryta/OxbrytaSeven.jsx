@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../assets/sec7frame.png'
+import img1 from '../../../assets/peopleesitting.png'
 import { useNavigate } from 'react-router-dom';
 
 const HomeSeven = () => {
@@ -7,7 +7,7 @@ const HomeSeven = () => {
   const navigate = useNavigate();
 
 const handleRedirect = () => {
-  navigate('/ContactUs'); // Adjust if your route is named differently
+  navigate('/ContactUs'); 
 };
 
   return (
@@ -35,7 +35,7 @@ Your Free Case Review!
           </h2>
       <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -88,7 +88,7 @@ Your Free Case Review!
               </h2>
           <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -128,7 +128,7 @@ Your Free Case Review!
             </h2>
             <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review

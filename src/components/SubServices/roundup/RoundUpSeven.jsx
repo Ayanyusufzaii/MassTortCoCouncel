@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../assets/sec7frame.png'
+import img1 from '../../../assets/peopleesitting.png'
 import { useNavigate } from 'react-router-dom'
  
 const RoundUpSeven = () => {
@@ -33,7 +33,7 @@ your free case Review!
           </h2>
           <button onClick={handleRedirect}
  
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             Start My Case Review
@@ -84,7 +84,7 @@ your free case Review!
  Fill out a from to start a free case review Now.              </h2>
               <button onClick={handleRedirect}
  
-                className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
               >
                 Start My Case Review
@@ -121,7 +121,7 @@ your free case Review!            </h1>
  Fill out a from to start a free case review Now.                </h2>
             <button onClick={handleRedirect}
  
-              className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
+              className="bg-[#ED8B03] hover:bg-yellow-500 text-white font-semibold px-6 py-3 rounded-lg text-base transition-colors duration-200 shadow-lg w-full sm:w-auto"
               style={{ fontFamily: 'Quicksand, sans-serif' }}
             >
               Start My Case Review
