@@ -202,7 +202,7 @@ function DesktopNavbar() {
 <div className="flex items-center">
   <button
     onClick={handlePhoneCall}
-    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white  text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#1545B5] transition-colors duration-200"
+    className="bg-[#1545B5] rounded-lg px-4 py-2 text-white text-center shadow font-quicksand hover:bg-[#ED8B03] hover:text-[#ffffff] transition-colors duration-200"
   >
     <div className="text-xs">CALL NOW</div>
     <div className="text-l">(888) 202 1350</div>
@@ -387,7 +387,7 @@ function MobileNavbar() {
                     key={label}
                     href={href}
                     aria-label={label}
-                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#00085B] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#1545B5] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
                   >
                     <Icon className="w-5 h-5 text-white " />
                   </a>

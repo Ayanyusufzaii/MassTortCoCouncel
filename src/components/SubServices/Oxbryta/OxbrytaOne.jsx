@@ -6,7 +6,7 @@ const HomeOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full  min-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[75vh] items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full h-relative md:min-h-[45vh] lg:min-h-[55vh] xl:min-h-[80vh] items-center justify-center overflow-hidden">
 
         {/* Background Image */}
         <img
