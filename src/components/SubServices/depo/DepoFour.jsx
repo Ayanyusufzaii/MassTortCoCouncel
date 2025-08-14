@@ -1,8 +1,8 @@
 import React from 'react';
 import bgImg from '../../../assets/Rectangle05.png';
 import dpImg from '../../../assets/2bg 1.png';
-import q2 from '../../../assets/qt1.png';
-import q1 from '../../../assets/qt2.png';
+import q2 from '../../../assets/commasssmirror.png';
+import q1 from '../../../assets/commasss.png';
  
 const lawsuitCards = [
   {

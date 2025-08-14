@@ -91,7 +91,7 @@ const AboutThree = () => {
       {/*  Mobile Layout (<768px) */}
       <div className="md:hidden flex flex-col w-full gap-6 px-4 py-10  bg-[#1545B5]">
         {/* Mobile Main Heading */}
-        <h2 className="text-left  text-[34px] font-semibold leading-[1.2] capitalize">
+        <h2 className="text-center  text-[34px] font-semibold leading-[1.2] capitalize">
           <span className="text-[#ffffff]">
             What{" "}
           </span>

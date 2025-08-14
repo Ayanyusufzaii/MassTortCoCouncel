@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import logo from "../../assets/logooo.png"; // Adjust the path as necessary
+import logo from "../../assets/cocouncelogo.png"; // Adjust the path as necessary
 import {  Instagram, Linkedin, ChevronDown, Check } from 'lucide-react';
 import { BsTwitterX } from "react-icons/bs"; // Importing Twitter icon from react-icons
 import { FaFacebookF } from 'react-icons/fa';
@@ -119,7 +119,7 @@ function DesktopNavbar() {
 
 <div className="flex items-center">
   <Link to="/">
-    <img src={logo} alt="Logo" className="h-16 w-48 object-contain" />
+    <img src={logo} alt="Logo" className="h-16 w-36 object-contain" />
   </Link>
 </div>
       

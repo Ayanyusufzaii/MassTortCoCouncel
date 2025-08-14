@@ -9,7 +9,7 @@ const eligibilityCards = [
         Dangerous prescription drugs
       </>
     ),
-    bg: "bg-[#FDF9ED]",
+    bg: "bg-[#ED8B03]",
   },
   {
     number: "02",
@@ -143,10 +143,10 @@ export default function EligibilityCriteria() {
  
       {/* Mobile Layout (below md) */}
 <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-  <h2 className="text-[#1545B5] text-[35px] font-semibold capitalize leading-[10px] text-left w-full">
+  <h2 className="text-[#1545B5] text-[35px] font-semibold capitalize leading-[10px] text-center w-full">
     Who We<span className="text-[#ED8B03]"> Help</span>
   </h2>
-  <p className="text-[#757575] text-[16px] font-medium text-left leading-[22px] w-full">
+  <p className="text-[#757575] text-[16px] font-medium text-center leading-[22px] w-full">
     We assist individuals & families affected by:
   </p>
 

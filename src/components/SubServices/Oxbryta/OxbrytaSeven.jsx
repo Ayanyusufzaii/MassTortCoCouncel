@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../../assets/sec7frame.png'
+import img1 from '../../../assets/peopleesitting.png'
 import { useNavigate } from 'react-router-dom';
 
 const HomeSeven = () => {
@@ -7,7 +7,7 @@ const HomeSeven = () => {
   const navigate = useNavigate();
 
 const handleRedirect = () => {
-  navigate('/ContactUs'); // Adjust if your route is named differently
+  navigate('/ContactUs'); 
 };
 
   return (

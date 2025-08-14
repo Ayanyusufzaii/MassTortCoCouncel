@@ -69,7 +69,7 @@ const AboutOne = () => {
               min-[3840px]:text-[36px] min-[3840px]:leading-[40px] min-[3840px]:max-w-[1510px]
               font-[Quicksand]"
           >
-            <span className="text-[#ED8B03] font-bold">ConnectwithAttorney </span>is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed 
+            <span className="text-[#ED8B03] font-bold">Mass Tort Co-counsel </span>is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed 
 by dangerous drugs, medical devices, and toxic exposures with legal teams who understand their pain and are ready to fight for justice.
           </h2>
         </div>
@@ -108,7 +108,7 @@ by dangerous drugs, medical devices, and toxic exposures with legal teams who un
               text-[15px] leading-normal
               font-[Quicksand]"
           >
-           <span className="text-[#ED8B03]">ConnectwithAttorney</span> is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed by dangerous drugs, medical devices, and toxic exposures with legal teams who understand their pain and are ready to fight for justice.
+           <span className="text-[#ED8B03]">Mass Tort Co-counsel</span> is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed by dangerous drugs, medical devices, and toxic exposures with legal teams who understand their pain and are ready to fight for justice.
           </h2>
         </div>
 

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import teamImg from '../../assets/abUs006.png'
-import teamImg1 from '../../assets/abUs006Mob.png'
-import aposthopthe_icon from '../../assets/aposthopthe_icon.png';
+import teamImg from '../../assets/flipppeoplee.png'
+import teamImg1 from '../../assets/peopleeee.png'
+import aposthopthe_icon from '../../assets/commasss.png';
  
 const AboutSix = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import herobg from '../../../assets/paradesktopppp.png'
-import MobileHeroBg from '../../../assets/paramobbb.png'
+import herobg from '../../../assets/paraquattheroo.png'
+import MobileHeroBg from '../../../assets/paraquattmobb.png'
 
 const PraquatOne = () => {
   return (
