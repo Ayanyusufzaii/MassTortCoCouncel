@@ -9,7 +9,7 @@ const eligibilityCards = [
         Dangerous prescription drugs
       </>
     ),
-    bg: "bg-[#ED8B03]",
+    bg: "bg-[#FDF9ED]",
   },
   {
     number: "02",
